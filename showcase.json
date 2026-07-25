@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "source": {
+    "githubUser": "jyc8369",
+    "exclude": ["jyc8369"],
+    "includeArchived": false
+  },
+  "profile": {
+    "displayName": "jyc8369",
+    "introduction": "A collection of tools, experiments, and shipped ideas."
+  },
+  "projects": [
+    {
+      "repo": "Minecraft_Mod_Translator_Gemini",
+      "featured": true,
+      "order": 1,
+      "category": "AI Tool",
+      "summary": "",
+      "tags": [],
+      "demoUrl": "",
+      "coverImage": ""
+    },
+    {
+      "repo": "Icon_Bundler",
+      "featured": true,
+      "order": 2,
+      "category": "Developer Tool",
+      "summary": "",
+      "tags": [],
+      "demoUrl": "",
+      "coverImage": ""
+    },
+    {
+      "repo": "Codex_Multi_Login",
+      "featured": true,
+      "order": 3,
+      "category": "Utility",
+      "summary": "",
+      "tags": [],
+      "demoUrl": "",
+      "coverImage": ""
+    }
+  ]
+}
