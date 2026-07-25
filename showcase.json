@@ -39,6 +39,26 @@
       "tags": [],
       "demoUrl": "",
       "coverImage": ""
+    },
+    {
+      "repo": "realesrgan_gui_korean",
+      "featured": false,
+      "order": 4,
+      "category": "Project",
+      "summary": "",
+      "tags": [],
+      "demoUrl": "",
+      "coverImage": ""
+    },
+    {
+      "repo": "Chatgpt_Account_Generator",
+      "featured": false,
+      "order": 5,
+      "category": "Project",
+      "summary": "",
+      "tags": [],
+      "demoUrl": "",
+      "coverImage": ""
     }
   ]
 }
