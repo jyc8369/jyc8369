@@ -1,50 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500" role="img" aria-label="jyc8369 animated terminal profile">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-label="jyc8369 profile banner">
   <defs>
-    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1A7F37"><animate attributeName="stop-color" values="#1A7F37;#0969DA;#1A7F37" dur="6s" repeatCount="indefinite"/></stop>
-      <stop offset="1" stop-color="#0969DA"><animate attributeName="stop-color" values="#0969DA;#1A7F37;#0969DA" dur="6s" repeatCount="indefinite"/></stop>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1A7F37">
+        <animate attributeName="stop-color" values="#1A7F37;#0969DA;#8250DF;#1A7F37" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#0969DA">
+        <animate attributeName="stop-color" values="#0969DA;#8250DF;#1A7F37;#0969DA" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <clipPath id="screenClip"><rect x="20" y="20" width="1060" height="460" rx="18"/></clipPath>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="window"><rect x="18" y="18" width="1064" height="284" rx="18"/></clipPath>
   </defs>
-  <rect width="1100" height="500" rx="20" fill="#F6F8FA"/>
-  <g clip-path="url(#screenClip)">
-    <rect x="20" y="20" width="1060" height="460" rx="18" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="2"/>
-    <rect x="20" y="20" width="1060" height="46" fill="#F6F8FA"/>
-    <circle cx="46" cy="43" r="6" fill="#FF5F56"/><circle cx="66" cy="43" r="6" fill="#FFBD2E"/><circle cx="86" cy="43" r="6" fill="#27C93F"/>
-    <text x="550" y="48" text-anchor="middle" fill="#656D76" font-size="13" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ ./whoami --live</text>
-    <rect x="20" y="65" width="1060" height="2" fill="url(#accentLine)"/>
+
+  <rect width="1100" height="320" rx="20" fill="#F6F8FA"/>
+  <g clip-path="url(#window)">
+    <rect x="18" y="18" width="1064" height="284" rx="18" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="2"/>
+    <rect x="18" y="18" width="1064" height="42" fill="#F0F3F6"/>
+    <circle cx="43" cy="39" r="5.5" fill="#FF5F56"/>
+    <circle cx="62" cy="39" r="5.5" fill="#FFBD2E"/>
+    <circle cx="81" cy="39" r="5.5" fill="#27C93F"/>
+    <text x="550" y="44" text-anchor="middle" fill="#57606A" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile</text>
+    <rect x="18" y="59" width="1064" height="2" fill="url(#accent)"/>
+
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-      <text x="58" y="98" fill="#656D76" font-size="11" letter-spacing="2">VISUAL.MAP / ASCII STREAM</text>
-      <rect x="55" y="112" width="430" height="325" rx="12" fill="none" stroke="#D0D7DE"/>
-      <g transform="translate(96 145)" fill="#1A7F37" font-size="23" xml:space="preserve" filter="url(#softGlow)">
-        <g><animate attributeName="opacity" values="1;1;0;0;0;0;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
-          <text y="0">             +--------+</text><text y="28">            /        /|</text><text y="56">           +--------+ |</text><text y="84">           |        | +</text><text y="112">          |   ::   |/</text><text y="140">          +--------+</text>
+      <text x="68" y="105" fill="#57606A" font-size="12" letter-spacing="2">PROFILE / README</text>
+      <text x="68" y="157" fill="#1F2328" font-size="46" font-weight="700">jyc8369</text>
+      <text x="70" y="190" fill="#24292F" font-size="18">Practical software for concrete problems.</text>
+
+      <g font-size="13" font-weight="600">
+        <rect x="69" y="214" width="112" height="30" rx="15" fill="#EAF7EE" stroke="#1A7F37"/>
+        <text x="125" y="234" text-anchor="middle" fill="#1A7F37">AUTOMATION</text>
+        <rect x="191" y="214" width="118" height="30" rx="15" fill="#EAF2FB" stroke="#0969DA"/>
+        <text x="250" y="234" text-anchor="middle" fill="#0969DA">UTILITIES</text>
+        <rect x="319" y="214" width="148" height="30" rx="15" fill="#F3EAFE" stroke="#8250DF"/>
+        <text x="393" y="234" text-anchor="middle" fill="#8250DF">DEV TOOLS</text>
+      </g>
+
+      <text x="70" y="273" fill="#57606A" font-size="13">&gt; build · iterate · document · ship</text>
+      <rect x="386" y="259" width="8" height="17" rx="1" fill="#0969DA">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+
+      <rect x="717" y="87" width="310" height="166" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
+      <text x="741" y="112" fill="#57606A" font-size="11" letter-spacing="2">ASCII.PROCESS</text>
+
+      <g transform="translate(760 135)" fill="#0969DA" font-size="19" xml:space="preserve" filter="url(#glow)">
+        <g>
+          <animate attributeName="opacity" values="1;1;0;0;0;0;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
+          <text y="0">       +------+</text>
+          <text y="23">      /      /|</text>
+          <text y="46">     +------+ |</text>
+          <text y="69">     |      | +</text>
+          <text y="92">     |      |/</text>
+          <text y="115">     +------+</text>
         </g>
-        <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
-          <text y="0">              +------+</text><text y="28">            /|     /|</text><text y="56">           +------+ |</text><text y="84">           | +----|-+</text><text y="112">          |/  :: |/</text><text y="140">          +------+</text>
+        <g opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
+          <text y="0">        +----+</text>
+          <text y="23">      /|    /|</text>
+          <text y="46">     +----+  |</text>
+          <text y="69">     | +--|--+</text>
+          <text y="92">     |/   | /</text>
+          <text y="115">     +----+</text>
         </g>
-        <g opacity="0"><animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
-          <text y="0">             +--------+</text><text y="28">            |\        \</text><text y="56">            | +--------+</text><text y="84">            + |        |</text><text y="112">             \|  ::   |</text><text y="140">              +--------+</text>
+        <g opacity="0">
+          <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
+          <text y="0">     +------+</text>
+          <text y="23">     |\      \</text>
+          <text y="46">     | +------+</text>
+          <text y="69">     + |      |</text>
+          <text y="92">      \|      |</text>
+          <text y="115">       +------+</text>
         </g>
-        <g opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
-          <text y="0">               +------+</text><text y="28">              |\     \|</text><text y="56">              | +------+</text><text y="84">              +-|----+ |</text><text y="112">               \| ::  \|</text><text y="140">                +------+</text>
+        <g opacity="0">
+          <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
+          <text y="0">       +----+</text>
+          <text y="23">       |\    \|</text>
+          <text y="46">       | +----+</text>
+          <text y="69">       +--|--+ |</text>
+          <text y="92">        \ |   \|</text>
+          <text y="115">         +----+</text>
         </g>
       </g>
-      <text x="95" y="348" fill="#656D76" font-size="13">rendering practical ideas into working software</text>
-      <text x="95" y="380" fill="#0969DA" font-size="13">&gt; status: building</text>
-      <rect x="246" y="366" width="9" height="17" fill="#0969DA"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
-      <text x="525" y="105" fill="#656D76" font-size="11" letter-spacing="2">PROFILE.LOG</text>
-      <text x="525" y="148" fill="#1A7F37" font-size="16">$ whoami</text><text x="525" y="177" fill="#1F2328" font-size="28" font-weight="700">jyc8369</text>
-      <text x="525" y="222" fill="#1A7F37" font-size="16">$ cat mission.txt</text>
-      <g fill="#1F2328" font-size="15">
-        <text x="525" y="250" opacity="0">Build practical tools for concrete problems.<animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.6s" fill="freeze"/></text>
-        <text x="525" y="277" opacity="0">Turn ideas into working software.<animate attributeName="opacity" values="0;1" begin="1.0s" dur="0.6s" fill="freeze"/></text>
-        <text x="525" y="304" opacity="0">Iterate, document, and ship.<animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.6s" fill="freeze"/></text>
-      </g>
-      <text x="525" y="350" fill="#1A7F37" font-size="16">$ ls focus/</text><text x="525" y="380" fill="#0969DA" font-size="15">automation/  utilities/  experiments/  open-source/</text>
-      <text x="525" y="425" fill="#656D76" font-size="13">github.com/jyc8369</text><circle cx="1012" cy="424" r="4" fill="#1A7F37"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></circle>
-      <rect x="0" y="72" width="1100" height="2" fill="#1A7F37" opacity="0.12"><animate attributeName="y" values="72;468;72" dur="7s" repeatCount="indefinite"/></rect>
+
+      <circle cx="1001" cy="275" r="4" fill="#1A7F37">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="982" y="280" text-anchor="end" fill="#57606A" font-size="12">status: building</text>
     </g>
+
+    <rect x="18" y="68" width="1064" height="1.5" fill="#0969DA" opacity="0.10">
+      <animate attributeName="y" values="68;294;68" dur="7s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>
