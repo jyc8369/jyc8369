@@ -1,17 +1,19 @@
 # About
 
-I build and share practical projects and focused tools that solve small, concrete problems.
+I build practical software that turns repetitive or awkward workflows into small, focused tools.
 
-## Build and share
+## What I build
 
-I turn ideas into working software, improve them through iteration, and document the process in public repositories.
+- Desktop utilities for file conversion and local workflows
+- AI-assisted automation connected to concrete tasks
+- Developer tools for VS Code, Codex, and related environments
 
-## Utility comes first
+## How I work
 
-Projects are designed around a clear purpose and a useful workflow instead of unnecessary complexity.
+I keep the scope small, build a usable version, improve it through iteration, and document installation, usage, and limitations in the repository.
 
-## Continue on GitHub
+## Selected work
 
-Source code, changes, releases, and documentation remain available in each project's GitHub repository.
+My public repositories include a Minecraft mod translation tool, a cross-platform icon converter, a VS Code extension for managing multiple Codex accounts, and a cost-aware agent routing plugin.
 
 This document is the content source for the About page in my project showcase.
