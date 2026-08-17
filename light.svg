@@ -1,99 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-label="jyc8369 profile banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-label="jyc8369 animated icosahedron profile banner">
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1A7F37">
-        <animate attributeName="stop-color" values="#1A7F37;#0969DA;#8250DF;#1A7F37" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#0969DA">
-        <animate attributeName="stop-color" values="#0969DA;#8250DF;#1A7F37;#0969DA" dur="8s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6F8FC"/>
+      <stop offset="1" stop-color="#EDF3FA"/>
     </linearGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="1.8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8250DF"><animate attributeName="stop-color" values="#8250DF;#0969DA;#1A7F37;#8250DF" dur="12s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#0969DA"><animate attributeName="stop-color" values="#0969DA;#1A7F37;#8250DF;#0969DA" dur="12s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <radialGradient id="coreGlow">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="0.28" stop-color="#0969DA" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0969DA" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#8A949F" stroke-opacity="0.10" stroke-width="0.8"/></pattern>
+    <filter id="blur28" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="window"><rect x="18" y="18" width="1064" height="284" rx="18"/></clipPath>
   </defs>
 
   <rect width="1100" height="320" rx="20" fill="#F6F8FA"/>
   <g clip-path="url(#window)">
-    <rect x="18" y="18" width="1064" height="284" rx="18" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="2"/>
-    <rect x="18" y="18" width="1064" height="42" fill="#F0F3F6"/>
-    <circle cx="43" cy="39" r="5.5" fill="#FF5F56"/>
-    <circle cx="62" cy="39" r="5.5" fill="#FFBD2E"/>
-    <circle cx="81" cy="39" r="5.5" fill="#27C93F"/>
-    <text x="550" y="44" text-anchor="middle" fill="#57606A" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile</text>
+    <rect x="18" y="18" width="1064" height="284" rx="18" fill="url(#background)" stroke="#D0D7E2" stroke-width="2"/>
+
+    <circle cx="835" cy="132" r="138" fill="#0969DA" opacity="0.12" filter="url(#blur28)"><animate attributeName="cx" values="815;850;815" dur="13s" repeatCount="indefinite"/><animate attributeName="cy" values="120;145;120" dur="15s" repeatCount="indefinite"/></circle>
+    <circle cx="995" cy="245" r="150" fill="#8250DF" opacity="0.12" filter="url(#blur28)"><animate attributeName="cx" values="1000;960;1000" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="250;220;250" dur="14s" repeatCount="indefinite"/></circle>
+
+    <rect x="18" y="18" width="1064" height="42" fill="#EDF2F8"/>
+    <circle cx="43" cy="39" r="5.5" fill="#FF5F56"/><circle cx="62" cy="39" r="5.5" fill="#FFBD2E"/><circle cx="81" cy="39" r="5.5" fill="#27C93F"/>
+    <text x="550" y="44" text-anchor="middle" fill="#66707B" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ ./render --icosahedron</text>
     <rect x="18" y="59" width="1064" height="2" fill="url(#accent)"/>
 
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-      <text x="68" y="105" fill="#57606A" font-size="12" letter-spacing="2">PROFILE / README</text>
-      <text x="68" y="157" fill="#1F2328" font-size="46" font-weight="700">jyc8369</text>
-      <text x="70" y="190" fill="#24292F" font-size="18">Practical software for concrete problems.</text>
+      <text x="68" y="101" fill="#8A949F" font-size="11" letter-spacing="2.4">PROFILE / OVERVIEW</text>
+      <text x="68" y="153" fill="#1F2328" font-size="46" font-weight="700">jyc8369</text>
+      <text x="70" y="186" fill="#32383F" font-size="18">Practical software for concrete problems.</text>
+      <text x="70" y="210" fill="#66707B" font-size="13">Automation, utilities, and developer tooling with real workflows.</text>
 
       <g font-size="13" font-weight="600">
-        <rect x="69" y="214" width="112" height="30" rx="15" fill="#EAF7EE" stroke="#1A7F37"/>
-        <text x="125" y="234" text-anchor="middle" fill="#1A7F37">AUTOMATION</text>
-        <rect x="191" y="214" width="118" height="30" rx="15" fill="#EAF2FB" stroke="#0969DA"/>
-        <text x="250" y="234" text-anchor="middle" fill="#0969DA">UTILITIES</text>
-        <rect x="319" y="214" width="148" height="30" rx="15" fill="#F3EAFE" stroke="#8250DF"/>
-        <text x="393" y="234" text-anchor="middle" fill="#8250DF">DEV TOOLS</text>
+        <rect x="69" y="229" width="112" height="30" rx="15" fill="#EAF7EE" stroke="#1A7F37"/><text x="125" y="249" text-anchor="middle" fill="#1A7F37">AUTOMATION</text>
+        <rect x="191" y="229" width="118" height="30" rx="15" fill="#EAF2FB" stroke="#0969DA"/><text x="250" y="249" text-anchor="middle" fill="#0969DA">UTILITIES</text>
+        <rect x="319" y="229" width="128" height="30" rx="15" fill="#F3EAFE" stroke="#8250DF"/><text x="383" y="249" text-anchor="middle" fill="#8250DF">DEV TOOLS</text>
       </g>
 
-      <text x="70" y="273" fill="#57606A" font-size="13">&gt; build · iterate · document · ship</text>
-      <rect x="386" y="259" width="8" height="17" rx="1" fill="#0969DA">
-        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-      </rect>
+      <text x="70" y="286" fill="#66707B" font-size="13">&gt; build · iterate · document · ship</text>
+      <rect x="386" y="272" width="8" height="17" rx="1" fill="#0969DA"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
 
-      <rect x="717" y="87" width="310" height="166" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
-      <text x="741" y="112" fill="#57606A" font-size="11" letter-spacing="2">ASCII.PROCESS</text>
+      <g transform="translate(655 76)">
+        <rect x="0" y="0" width="377" height="210" rx="18" fill="#FFFFFF" fill-opacity="0.72" stroke="#D8DEE8" stroke-opacity="0.75"/>
+        <rect x="14" y="14" width="349" height="182" rx="14" fill="url(#grid)" opacity="0.80"/>
+        <text x="24" y="33" fill="#8A949F" font-size="11" letter-spacing="2.2">ICOSAHEDRON / SIGNAL</text>
+        <text x="24" y="54" fill="#66707B" font-size="11">20 faces · 30 edges · 12 vertices</text>
 
-      <g transform="translate(760 135)" fill="#0969DA" font-size="19" xml:space="preserve" filter="url(#glow)">
-        <g>
-          <animate attributeName="opacity" values="1;1;0;0;0;0;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
-          <text y="0">       +------+</text>
-          <text y="23">      /      /|</text>
-          <text y="46">     +------+ |</text>
-          <text y="69">     |      | +</text>
-          <text y="92">     |      |/</text>
-          <text y="115">     +------+</text>
+        <g transform="translate(238 112)">
+          <ellipse cx="0" cy="0" rx="124" ry="55" fill="none" stroke="#0969DA" stroke-opacity="0.30" stroke-width="1.1" stroke-dasharray="3 9" transform="rotate(-16)"><animate attributeName="stroke-dashoffset" values="0;-96" dur="14s" repeatCount="indefinite"/></ellipse>
+          <ellipse cx="0" cy="0" rx="112" ry="43" fill="none" stroke="#8250DF" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="1 11" transform="rotate(38)"><animate attributeName="stroke-dashoffset" values="0;88" dur="18s" repeatCount="indefinite"/></ellipse>
+
+          <g opacity="0.16"><g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="42s" repeatCount="indefinite"/><g transform="scale(1.16)"><path d="M-17.8,-59.6 L-23.5,-90.5 M-17.8,-59.6 L-85.2,-24.6 M-17.8,-59.6 L-35.3,10.0 M-17.8,-59.6 L58.9,-64.0 M-17.8,-59.6 L31.9,-8.8 M-85.2,-24.6 L-35.3,10.0 M-60.1,65.2 L-35.3,10.0 M-60.1,65.2 L15.7,60.4 M-35.3,10.0 L31.9,-8.8 M-35.3,10.0 L15.7,60.4 M58.9,-64.0 L31.9,-8.8 M58.9,-64.0 L83.6,24.2 M31.9,-8.8 L15.7,60.4 M31.9,-8.8 L83.6,24.2 M15.7,60.4 L83.6,24.2 M-23.5,-90.5 L-85.2,-24.6 M-23.5,-90.5 L68.2,-19.3 M-23.5,-90.5 L-63.3,17.4 M-23.5,-90.5 L58.9,-64.0 M-85.2,-24.6 L-60.1,65.2 M-85.2,-24.6 L-63.3,17.4 M68.2,-19.3 L-63.3,17.4 M68.2,-19.3 L58.9,-64.0 M68.2,-19.3 L26.8,89.5 M68.2,-19.3 L83.6,24.2 M-60.1,65.2 L-63.3,17.4 M-60.1,65.2 L26.8,89.5 M-63.3,17.4 L26.8,89.5 M26.8,89.5 L15.7,60.4 M26.8,89.5 L83.6,24.2" fill="none" stroke="#8250DF" stroke-width="0.85"/></g></g></g>
+
+          <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.98;1.025;0.98" dur="8s" repeatCount="indefinite"/>
+            <g fill="url(#accent)" fill-opacity="0.55"><polygon points="68.2,-19.3 -63.3,17.4 26.8,89.5" opacity="0.080"/><polygon points="-23.5,-90.5 68.2,-19.3 -63.3,17.4" opacity="0.115"/><polygon points="-60.1,65.2 -63.3,17.4 26.8,89.5" opacity="0.150"/><polygon points="-23.5,-90.5 -85.2,-24.6 -63.3,17.4" opacity="0.080"/><polygon points="68.2,-19.3 26.8,89.5 83.6,24.2" opacity="0.115"/><polygon points="-23.5,-90.5 68.2,-19.3 58.9,-64.0" opacity="0.150"/><polygon points="-85.2,-24.6 -60.1,65.2 -63.3,17.4" opacity="0.080"/></g>
+            <path d="M-17.8,-59.6 L-23.5,-90.5 M-17.8,-59.6 L-85.2,-24.6 M-17.8,-59.6 L-35.3,10.0 M-17.8,-59.6 L58.9,-64.0 M-17.8,-59.6 L31.9,-8.8 M-85.2,-24.6 L-35.3,10.0 M-60.1,65.2 L-35.3,10.0 M-60.1,65.2 L15.7,60.4 M-35.3,10.0 L31.9,-8.8 M-35.3,10.0 L15.7,60.4 M58.9,-64.0 L31.9,-8.8 M58.9,-64.0 L83.6,24.2 M31.9,-8.8 L15.7,60.4 M31.9,-8.8 L83.6,24.2 M15.7,60.4 L83.6,24.2" fill="none" stroke="#9AA8B9" stroke-opacity="0.42" stroke-width="1.05" stroke-dasharray="3 5"/>
+            <path d="M-23.5,-90.5 L-85.2,-24.6 M-23.5,-90.5 L68.2,-19.3 M-23.5,-90.5 L-63.3,17.4 M-23.5,-90.5 L58.9,-64.0 M-85.2,-24.6 L-60.1,65.2 M-85.2,-24.6 L-63.3,17.4 M68.2,-19.3 L-63.3,17.4 M68.2,-19.3 L58.9,-64.0 M68.2,-19.3 L26.8,89.5 M68.2,-19.3 L83.6,24.2 M-60.1,65.2 L-63.3,17.4 M-60.1,65.2 L26.8,89.5 M-63.3,17.4 L26.8,89.5 M26.8,89.5 L15.7,60.4 M26.8,89.5 L83.6,24.2" fill="none" stroke="url(#accent)" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>
+            <path d="M-23.5,-90.5 L-85.2,-24.6 M-23.5,-90.5 L68.2,-19.3 M-23.5,-90.5 L-63.3,17.4 M-23.5,-90.5 L58.9,-64.0 M-85.2,-24.6 L-60.1,65.2 M-85.2,-24.6 L-63.3,17.4 M68.2,-19.3 L-63.3,17.4 M68.2,-19.3 L58.9,-64.0 M68.2,-19.3 L26.8,89.5 M68.2,-19.3 L83.6,24.2 M-60.1,65.2 L-63.3,17.4 M-60.1,65.2 L26.8,89.5 M-63.3,17.4 L26.8,89.5 M26.8,89.5 L15.7,60.4 M26.8,89.5 L83.6,24.2" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="0.55" stroke-dasharray="1 13"><animate attributeName="stroke-dashoffset" values="0;-140" dur="7s" repeatCount="indefinite"/></path>
+            <g fill="#FFFFFF" stroke="url(#accent)" stroke-width="1.2" filter="url(#softGlow)"><circle cx="-17.8" cy="-59.6" r="2.2"/><circle cx="-23.5" cy="-90.5" r="3.0"/><circle cx="-85.2" cy="-24.6" r="2.2"/><circle cx="68.2" cy="-19.3" r="3.0"/><circle cx="-60.1" cy="65.2" r="2.2"/><circle cx="-63.3" cy="17.4" r="3.0"/><circle cx="-35.3" cy="10.0" r="2.2"/><circle cx="58.9" cy="-64.0" r="2.2"/><circle cx="31.9" cy="-8.8" r="2.2"/><circle cx="26.8" cy="89.5" r="3.0"/><circle cx="15.7" cy="60.4" r="2.2"/><circle cx="83.6" cy="24.2" r="2.2"/><animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" repeatCount="indefinite"/></g>
+          </g></g>
+
+          <circle cx="0" cy="0" r="28" fill="url(#coreGlow)" opacity="0.72"><animate attributeName="r" values="24;33;24" dur="4.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.42;0.82;0.42" dur="4.8s" repeatCount="indefinite"/></circle>
+          <circle cx="0" cy="0" r="4.5" fill="#FFFFFF" filter="url(#glow)"/>
         </g>
-        <g opacity="0">
-          <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
-          <text y="0">        +----+</text>
-          <text y="23">      /|    /|</text>
-          <text y="46">     +----+  |</text>
-          <text y="69">     | +--|--+</text>
-          <text y="92">     |/   | /</text>
-          <text y="115">     +----+</text>
-        </g>
-        <g opacity="0">
-          <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
-          <text y="0">     +------+</text>
-          <text y="23">     |\      \</text>
-          <text y="46">     | +------+</text>
-          <text y="69">     + |      |</text>
-          <text y="92">      \|      |</text>
-          <text y="115">       +------+</text>
-        </g>
-        <g opacity="0">
-          <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.20;0.25;0.45;0.50;0.70;0.75;1" dur="4s" repeatCount="indefinite"/>
-          <text y="0">       +----+</text>
-          <text y="23">       |\    \|</text>
-          <text y="46">       | +----+</text>
-          <text y="69">       +--|--+ |</text>
-          <text y="92">        \ |   \|</text>
-          <text y="115">         +----+</text>
-        </g>
+
+        <circle cx="28" cy="176" r="4.2" fill="#1A7F37"><animate attributeName="opacity" values="0.30;1;0.30" dur="1.8s" repeatCount="indefinite"/></circle>
+        <text x="40" y="180" fill="#66707B" font-size="11" letter-spacing="1.3">LIVE</text>
       </g>
-
-      <circle cx="1001" cy="275" r="4" fill="#1A7F37">
-        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/>
-      </circle>
-      <text x="982" y="280" text-anchor="end" fill="#57606A" font-size="12">status: building</text>
     </g>
 
-    <rect x="18" y="68" width="1064" height="1.5" fill="#0969DA" opacity="0.10">
-      <animate attributeName="y" values="68;294;68" dur="7s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="18" y="66" width="1064" height="1.4" fill="#0969DA" opacity="0.08"><animate attributeName="y" values="66;296;66" dur="10s" repeatCount="indefinite"/></rect>
   </g>
 </svg>
