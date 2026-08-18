@@ -68,14 +68,20 @@ def classify_fonts(root: ET.Element) -> None:
         weight = element.get("font-weight", "")
         letter_spacing = element.get("letter-spacing")
         y = element.get("y")
+        y_value = number(y)
 
-        if y == "51" or letter_spacing or text in MONO_LABELS:
+        if (
+            y == "51"
+            or letter_spacing
+            or text in MONO_LABELS
+            or re.fullmatch(r"\d{2}", text)
+        ):
             family = FONT_MONO
         elif text in STAGE_LABELS:
             family = FONT_DISPLAY
         elif size >= 30 or (weight in {"700", "800"} and size >= 16):
             family = FONT_DISPLAY
-        elif size <= 13 and ("·" in text or text.isupper()):
+        elif size <= 13 and (text.isupper() or ("·" in text and y_value >= 100)):
             family = FONT_MONO
         else:
             family = FONT_BODY
