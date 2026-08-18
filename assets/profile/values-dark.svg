@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1200"
-  height="650"
-  viewBox="0 0 1200 650"
+  height="670"
+  viewBox="0 0 1200 670"
   role="img"
   aria-label="What I value"
 >
@@ -32,12 +32,12 @@
       </stop>
     </linearGradient>
   </defs>
-  <rect width="1200" height="650" rx="34" fill="#070B12"/>
+  <rect width="1200" height="670" rx="34" fill="#070B12"/>
   <rect
     x="20"
     y="20"
     width="1160"
-    height="610"
+    height="630"
     rx="28"
     fill="#0D1117"
     stroke="#26344D"
@@ -62,104 +62,79 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="126" fill="#5D6B82" font-size="13" letter-spacing="2.7">WHAT I VALUE</text>
-    <text x="70" y="172" fill="#F2F6FF" font-size="36" font-weight="700">Convenience and efficiency are the starting point.</text>
+    <text x="70" y="142" fill="#F2F6FF" font-size="36" font-weight="700">Convenience and efficiency are the starting point.</text>
     <text
       x="70"
-      y="210"
+      y="184"
       fill="#D8E1F0"
       font-size="16"><tspan x="70" dy="0">Useful software should remove unnecessary work instead of moving complexity onto the user.</tspan><tspan x="70" dy="27">I prefer clear workflows, practical results, and improvements that can be felt immediately.</tspan></text>
-    <g transform="translate(70 292)">
+    <g transform="translate(70 270)">
       <rect
         width="510"
-        height="130"
+        height="145"
         rx="20"
         fill="#101723"
         stroke="#26344D"
       />
-      <rect
-        x="20"
-        y="20"
-        width="8"
-        height="90"
-        rx="4"
-        fill="#C4B5FD"
-      />
-      <text x="52" y="43" fill="#C4B5FD" font-size="17" font-weight="700">Convenience</text>
+      <text x="28" y="40" fill="#C4B5FD" font-size="13" font-weight="700">01</text>
+      <text x="72" y="41" fill="#C4B5FD" font-size="18" font-weight="700">Convenience</text>
+      <path d="M28 58H482" stroke="#26344D"/>
       <text
-        x="52"
-        y="72"
+        x="28"
+        y="88"
         fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Reduce unnecessary effort so the user can focus</tspan><tspan x="52" dy="23">on the task they actually care about.</tspan></text>
+        font-size="14"><tspan x="28" dy="0">Reduce unnecessary effort so the user can focus</tspan><tspan x="28" dy="24">on the task they actually care about.</tspan></text>
     </g>
-    <g transform="translate(620 292)">
+    <g transform="translate(620 270)">
       <rect
         width="510"
-        height="130"
+        height="145"
         rx="20"
         fill="#101723"
         stroke="#26344D"
       />
-      <rect
-        x="20"
-        y="20"
-        width="8"
-        height="90"
-        rx="4"
-        fill="#67E8F9"
-      />
-      <text x="52" y="43" fill="#67E8F9" font-size="17" font-weight="700">Efficiency</text>
+      <text x="28" y="40" fill="#67E8F9" font-size="13" font-weight="700">02</text>
+      <text x="72" y="41" fill="#67E8F9" font-size="18" font-weight="700">Efficiency</text>
+      <path d="M28 58H482" stroke="#26344D"/>
       <text
-        x="52"
-        y="72"
+        x="28"
+        y="88"
         fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Prefer fewer steps, less repetition, and a faster</tspan><tspan x="52" dy="23">path to the same reliable result.</tspan></text>
+        font-size="14"><tspan x="28" dy="0">Prefer fewer steps, less repetition, and a faster</tspan><tspan x="28" dy="24">path to the same reliable result.</tspan></text>
     </g>
-    <g transform="translate(70 452)">
+    <g transform="translate(70 440)">
       <rect
         width="510"
-        height="130"
+        height="145"
         rx="20"
         fill="#101723"
         stroke="#26344D"
       />
-      <rect
-        x="20"
-        y="20"
-        width="8"
-        height="90"
-        rx="4"
-        fill="#4ADE80"
-      />
-      <text x="52" y="43" fill="#4ADE80" font-size="17" font-weight="700">Practicality</text>
+      <text x="28" y="40" fill="#4ADE80" font-size="13" font-weight="700">03</text>
+      <text x="72" y="41" fill="#4ADE80" font-size="18" font-weight="700">Practicality</text>
+      <path d="M28 58H482" stroke="#26344D"/>
       <text
-        x="52"
-        y="72"
+        x="28"
+        y="88"
         fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">A small project is valuable when it solves a clear</tspan><tspan x="52" dy="23">problem and fits into a real workflow.</tspan></text>
+        font-size="14"><tspan x="28" dy="0">A small project is valuable when it solves a clear</tspan><tspan x="28" dy="24">problem and fits into a real workflow.</tspan></text>
     </g>
-    <g transform="translate(620 452)">
+    <g transform="translate(620 440)">
       <rect
         width="510"
-        height="130"
+        height="145"
         rx="20"
         fill="#101723"
         stroke="#26344D"
       />
-      <rect
-        x="20"
-        y="20"
-        width="8"
-        height="90"
-        rx="4"
-        fill="#F9A8D4"
-      />
-      <text x="52" y="43" fill="#F9A8D4" font-size="17" font-weight="700">Iteration</text>
+      <text x="28" y="40" fill="#F9A8D4" font-size="13" font-weight="700">04</text>
+      <text x="72" y="41" fill="#F9A8D4" font-size="18" font-weight="700">Iteration</text>
+      <path d="M28 58H482" stroke="#26344D"/>
       <text
-        x="52"
-        y="72"
+        x="28"
+        y="88"
         fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Ship a usable version, observe the next source of</tspan><tspan x="52" dy="23">friction, and improve it step by step.</tspan></text>
+        font-size="14"><tspan x="28" dy="0">Ship a usable version, observe the next friction,</tspan><tspan x="28" dy="24">then improve the workflow step by step.</tspan></text>
     </g>
   </g>
 </svg>

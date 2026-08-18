@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1200"
-  height="650"
-  viewBox="0 0 1200 650"
+  height="700"
+  viewBox="0 0 1200 700"
   role="img"
   aria-label="About jyc8369"
 >
@@ -32,12 +32,12 @@
       </stop>
     </linearGradient>
   </defs>
-  <rect width="1200" height="650" rx="34" fill="#070B12"/>
+  <rect width="1200" height="700" rx="34" fill="#070B12"/>
   <rect
     x="20"
     y="20"
     width="1160"
-    height="610"
+    height="660"
     rx="28"
     fill="#0D1117"
     stroke="#26344D"
@@ -62,17 +62,16 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="126" fill="#5D6B82" font-size="13" letter-spacing="2.7">ABOUT ME</text>
-    <text x="70" y="172" fill="#F2F6FF" font-size="36" font-weight="700">I build software around friction I can actually see.</text>
+    <text x="70" y="142" fill="#F2F6FF" font-size="36" font-weight="700">I build software around friction I can actually see.</text>
     <text
       x="70"
-      y="210"
+      y="184"
       fill="#D8E1F0"
-      font-size="16"><tspan x="70" dy="0">I look for repetitive, inconvenient, or unnecessarily complicated workflows,</tspan><tspan x="70" dy="27">then try to turn that friction into a focused tool or a small service I can actually use.</tspan></text>
-    <g transform="translate(70 292)">
+      font-size="16"><tspan x="70" dy="0">I start from repetitive, inconvenient, or unnecessarily complicated workflows.</tspan><tspan x="70" dy="27">Then I turn that friction into focused tools and small services I can actually use.</tspan></text>
+    <g transform="translate(70 265)">
       <rect
-        width="330"
-        height="190"
+        width="515"
+        height="165"
         rx="20"
         fill="#101723"
         stroke="#26344D"
@@ -81,21 +80,22 @@
         x="20"
         y="20"
         width="8"
-        height="150"
+        height="125"
         rx="4"
         fill="#C4B5FD"
       />
       <text x="52" y="43" fill="#C4B5FD" font-size="17" font-weight="700">01 · Notice real friction</text>
       <text
         x="52"
-        y="72"
+        y="78"
         fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Start from a concrete inconvenience,</tspan><tspan x="52" dy="23">not from a feature list.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">Repetition · confusing steps · wasted time</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Start from a concrete inconvenience, not a feature list.</tspan><tspan x="52" dy="24">Look for repetition, confusing steps, and wasted time.</tspan></text>
+      <text x="52" y="141" fill="#8290A8" font-size="13">Problem first · features second</text>
     </g>
-    <g transform="translate(435 292)">
+    <g transform="translate(615 265)">
       <rect
-        width="330"
-        height="190"
+        width="515"
+        height="165"
         rx="20"
         fill="#101723"
         stroke="#26344D"
@@ -104,21 +104,22 @@
         x="20"
         y="20"
         width="8"
-        height="150"
+        height="125"
         rx="4"
         fill="#67E8F9"
       />
       <text x="52" y="43" fill="#67E8F9" font-size="17" font-weight="700">02 · Build a usable fix</text>
       <text
         x="52"
-        y="72"
+        y="78"
         fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Keep the scope small enough to understand,</tspan><tspan x="52" dy="23">but complete enough to be useful.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">Utilities · developer tools · automation</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Keep the scope small enough to understand,</tspan><tspan x="52" dy="24">but complete enough to be useful in practice.</tspan></text>
+      <text x="52" y="141" fill="#8290A8" font-size="13">Utilities · developer tools · automation</text>
     </g>
-    <g transform="translate(800 292)">
+    <g transform="translate(70 460)">
       <rect
-        width="330"
-        height="190"
+        width="1060"
+        height="150"
         rx="20"
         fill="#101723"
         stroke="#26344D"
@@ -127,21 +128,49 @@
         x="20"
         y="20"
         width="8"
-        height="150"
+        height="110"
         rx="4"
         fill="#4ADE80"
       />
       <text x="52" y="43" fill="#4ADE80" font-size="17" font-weight="700">03 · Learn from operation</text>
       <text
         x="52"
-        y="72"
+        y="78"
         fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Deploy what I build and learn what becomes</tspan><tspan x="52" dy="23">difficult once software leaves localhost.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">DevOps · Systems Engineering · reliability</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Deploy what I build and learn what becomes difficult once software leaves localhost.</tspan><tspan x="52" dy="24">Failures become feedback for the next design, deployment, and operational decision.</tspan></text>
+      <g transform="translate(720 34)">
+        <rect
+          width="280"
+          height="32"
+          rx="16"
+          fill="#0B1320"
+          stroke="#4ADE80"
+        />
+        <text x="140" y="21" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700">DEVOPS</text>
+        <rect
+          y="42"
+          width="280"
+          height="32"
+          rx="16"
+          fill="#0B1320"
+          stroke="#67E8F9"
+        />
+        <text x="140" y="63" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700">SYSTEMS ENGINEERING</text>
+        <rect
+          y="84"
+          width="280"
+          height="32"
+          rx="16"
+          fill="#0B1320"
+          stroke="#FBBF24"
+        />
+        <text x="140" y="105" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="700">RELIABILITY</text>
+      </g>
     </g>
     <text
       x="70"
-      y="540"
+      y="650"
       fill="#8290A8"
-      font-size="14"><tspan x="70" dy="0">Long-term goal: understand software, infrastructure, and the needs of the people using both.</tspan><tspan x="70" dy="24">I want to become an engineer who can connect development decisions with reliable system operation.</tspan></text>
+      font-size="14"><tspan x="70" dy="0">Long-term goal: connect development decisions with reliable system operation and real user needs.</tspan></text>
   </g>
 </svg>

@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1200"
-  height="700"
-  viewBox="0 0 1200 700"
+  height="720"
+  viewBox="0 0 1200 720"
   role="img"
   aria-label="Learning through small services"
 >
@@ -32,12 +32,12 @@
       </stop>
     </linearGradient>
   </defs>
-  <rect width="1200" height="700" rx="34" fill="#F6F8FA"/>
+  <rect width="1200" height="720" rx="34" fill="#F6F8FA"/>
   <rect
     x="20"
     y="20"
     width="1160"
-    height="660"
+    height="680"
     rx="28"
     fill="#FFFFFF"
     stroke="#D0D7E2"
@@ -62,16 +62,15 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="126" fill="#8A949F" font-size="13" letter-spacing="2.7">LEARNING THROUGH SMALL SERVICES</text>
-    <text x="70" y="172" fill="#1F2328" font-size="36" font-weight="700">Build. Deploy. Observe. Debug. Improve.</text>
+    <text x="70" y="142" fill="#1F2328" font-size="36" font-weight="700">Build. Deploy. Observe. Debug. Improve.</text>
     <text
       x="70"
-      y="210"
+      y="184"
       fill="#24292F"
-      font-size="16"><tspan x="70" dy="0">I build and deploy small services so I can experience the software lifecycle beyond development.</tspan><tspan x="70" dy="27">When something fails, I investigate it from the software engineer’s point of view and improve the next run.</tspan></text>
+      font-size="16"><tspan x="70" dy="0">I build and deploy small services to experience the software lifecycle beyond development.</tspan><tspan x="70" dy="27">When something fails, I use the incident as feedback for the next run.</tspan></text>
     <path
       id="flow"
-      d="M110 350 H1090"
+      d="M110 330H1090"
       fill="none"
       stroke="#D0D7E2"
       stroke-width="4"
@@ -82,41 +81,76 @@
         <mpath href="#flow"/>
       </animateMotion>
     </circle>
-    <g transform="translate(110 350)">
-      <circle r="30" fill="#FFFFFF" stroke="#8250DF" stroke-width="2"/>
+    <g transform="translate(110 330)">
+      <circle r="34" fill="#FFFFFF" stroke="#8250DF" stroke-width="2.5"/>
       <text y="6" text-anchor="middle" fill="#8250DF" font-size="14" font-weight="700">01</text>
-      <text x="0" y="65" text-anchor="middle" fill="#1F2328" font-size="16" font-weight="700">BUILD</text>
-      <text x="0" y="90" text-anchor="middle" fill="#6E7781" font-size="12">Create the service</text>
+      <text y="75" text-anchor="middle" fill="#1F2328" font-size="17" font-weight="700">BUILD</text>
     </g>
-    <g transform="translate(355 350)">
-      <circle r="30" fill="#FFFFFF" stroke="#0969DA" stroke-width="2"/>
+    <g transform="translate(355 330)">
+      <circle r="34" fill="#FFFFFF" stroke="#0969DA" stroke-width="2.5"/>
       <text y="6" text-anchor="middle" fill="#0969DA" font-size="14" font-weight="700">02</text>
-      <text x="0" y="65" text-anchor="middle" fill="#1F2328" font-size="16" font-weight="700">DEPLOY</text>
-      <text x="0" y="90" text-anchor="middle" fill="#6E7781" font-size="12">Move beyond localhost</text>
+      <text y="75" text-anchor="middle" fill="#1F2328" font-size="17" font-weight="700">DEPLOY</text>
     </g>
-    <g transform="translate(600 350)">
-      <circle r="30" fill="#FFFFFF" stroke="#1A7F37" stroke-width="2"/>
+    <g transform="translate(600 330)">
+      <circle r="34" fill="#FFFFFF" stroke="#1A7F37" stroke-width="2.5"/>
       <text y="6" text-anchor="middle" fill="#1A7F37" font-size="14" font-weight="700">03</text>
-      <text x="0" y="65" text-anchor="middle" fill="#1F2328" font-size="16" font-weight="700">OBSERVE</text>
-      <text x="0" y="90" text-anchor="middle" fill="#6E7781" font-size="12">Logs · metrics · state</text>
+      <text y="75" text-anchor="middle" fill="#1F2328" font-size="17" font-weight="700">OBSERVE</text>
     </g>
-    <g transform="translate(845 350)">
-      <circle r="30" fill="#FFFFFF" stroke="#BF3989" stroke-width="2"/>
+    <g transform="translate(845 330)">
+      <circle r="34" fill="#FFFFFF" stroke="#BF3989" stroke-width="2.5"/>
       <text y="6" text-anchor="middle" fill="#BF3989" font-size="14" font-weight="700">04</text>
-      <text x="0" y="65" text-anchor="middle" fill="#1F2328" font-size="16" font-weight="700">DEBUG</text>
-      <text x="0" y="90" text-anchor="middle" fill="#6E7781" font-size="12">Resolve real failures</text>
+      <text y="75" text-anchor="middle" fill="#1F2328" font-size="17" font-weight="700">DEBUG</text>
     </g>
-    <g transform="translate(1090 350)">
-      <circle r="30" fill="#FFFFFF" stroke="#9A6700" stroke-width="2"/>
+    <g transform="translate(1090 330)">
+      <circle r="34" fill="#FFFFFF" stroke="#9A6700" stroke-width="2.5"/>
       <text y="6" text-anchor="middle" fill="#9A6700" font-size="14" font-weight="700">05</text>
-      <text x="0" y="65" text-anchor="middle" fill="#1F2328" font-size="16" font-weight="700">IMPROVE</text>
-      <text x="0" y="90" text-anchor="middle" fill="#6E7781" font-size="12">Prevent the next failure</text>
+      <text y="75" text-anchor="middle" fill="#1F2328" font-size="17" font-weight="700">IMPROVE</text>
     </g>
-    <text
-      x="70"
-      y="520"
-      fill="#24292F"
-      font-size="14"><tspan x="70" dy="0">What I learn from this loop:</tspan><tspan x="70" dy="25">• what deployment environments make development easier</tspan><tspan x="70" dy="25">• what logs and observability data are actually useful during incidents</tspan><tspan x="70" dy="25">• where automation can reduce repetitive operational work</tspan><tspan x="70" dy="25">• how reliability is designed through prevention, detection, diagnosis, and recovery</tspan></text>
-    <text x="70" y="660" fill="#6E7781" font-size="13">CI/CD · Linux · Containers · Networking · Observability · Reliability</text>
+    <g transform="translate(70 465)">
+      <rect
+        width="330"
+        height="145"
+        rx="20"
+        fill="#F6F8FA"
+        stroke="#D0D7E2"
+      />
+      <text x="28" y="43" fill="#8250DF" font-size="16" font-weight="700">Deployment reality</text>
+      <text
+        x="28"
+        y="78"
+        fill="#24292F"
+        font-size="13"><tspan x="28" dy="0">What changes outside localhost,</tspan><tspan x="28" dy="24">and what environments developers need.</tspan></text>
+    </g>
+    <g transform="translate(435 465)">
+      <rect
+        width="330"
+        height="145"
+        rx="20"
+        fill="#F6F8FA"
+        stroke="#D0D7E2"
+      />
+      <text x="28" y="43" fill="#1A7F37" font-size="16" font-weight="700">Useful signals</text>
+      <text
+        x="28"
+        y="78"
+        fill="#24292F"
+        font-size="13"><tspan x="28" dy="0">Which logs, metrics, and state</tspan><tspan x="28" dy="24">actually help during incidents.</tspan></text>
+    </g>
+    <g transform="translate(800 465)">
+      <rect
+        width="330"
+        height="145"
+        rx="20"
+        fill="#F6F8FA"
+        stroke="#D0D7E2"
+      />
+      <text x="28" y="43" fill="#9A6700" font-size="16" font-weight="700">Operational leverage</text>
+      <text
+        x="28"
+        y="78"
+        fill="#24292F"
+        font-size="13"><tspan x="28" dy="0">Where automation and prevention</tspan><tspan x="28" dy="24">remove repetitive operational work.</tspan></text>
+    </g>
+    <text x="70" y="665" fill="#6E7781" font-size="14">CI/CD · Linux · Containers · Networking · Observability · Reliability</text>
   </g>
 </svg>

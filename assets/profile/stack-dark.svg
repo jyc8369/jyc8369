@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1200"
-  height="820"
-  viewBox="0 0 1200 820"
+  height="780"
+  viewBox="0 0 1200 780"
   role="img"
   aria-label="Programming languages and current direction"
 >
@@ -32,12 +32,12 @@
       </stop>
     </linearGradient>
   </defs>
-  <rect width="1200" height="820" rx="34" fill="#070B12"/>
+  <rect width="1200" height="780" rx="34" fill="#070B12"/>
   <rect
     x="20"
     y="20"
     width="1160"
-    height="780"
+    height="740"
     rx="28"
     fill="#0D1117"
     stroke="#26344D"
@@ -62,193 +62,177 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="126" fill="#5D6B82" font-size="13" letter-spacing="2.7">LANGUAGES &amp; DIRECTION</text>
-    <text x="70" y="172" fill="#F2F6FF" font-size="36" font-weight="700">Tools I use. Systems I want to understand.</text>
+    <text x="70" y="142" fill="#F2F6FF" font-size="36" font-weight="700">Tools I use. Systems I want to understand.</text>
     <text
       x="70"
-      y="210"
+      y="184"
       fill="#D8E1F0"
       font-size="16"><tspan x="70" dy="0">Programming languages are tools for building the things I need today.</tspan><tspan x="70" dy="27">DevOps and Systems Engineering are the direction I want to grow toward over time.</tspan></text>
-    <text x="70" y="290" fill="#8290A8" font-size="13">PROGRAMMING LANGUAGES</text>
-    <g transform="translate(70 315)">
+    <text x="70" y="272" fill="#8290A8" font-size="14" font-weight="700">LANGUAGES</text>
+    <g transform="translate(70 295)">
       <rect
         width="500"
-        height="92"
-        rx="20"
+        height="78"
+        rx="18"
         fill="#101723"
         stroke="#26344D"
       />
       <rect
         x="20"
-        y="20"
+        y="18"
         width="8"
-        height="52"
+        height="42"
         rx="4"
         fill="#C4B5FD"
       />
-      <text x="52" y="43" fill="#C4B5FD" font-size="17" font-weight="700">Python</text>
-      <text
-        x="52"
-        y="72"
-        fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Automation · desktop utilities</tspan><tspan x="52" dy="23">API integrations</tspan></text>
+      <text x="52" y="34" fill="#C4B5FD" font-size="17" font-weight="700">Python</text>
+      <text x="52" y="58" fill="#D8E1F0" font-size="13">Automation · desktop utilities · API integrations</text>
     </g>
-    <g transform="translate(70 420)">
+    <g transform="translate(70 390)">
       <rect
         width="500"
-        height="92"
-        rx="20"
+        height="78"
+        rx="18"
         fill="#101723"
         stroke="#26344D"
       />
       <rect
         x="20"
-        y="20"
+        y="18"
         width="8"
-        height="52"
+        height="42"
         rx="4"
         fill="#67E8F9"
       />
-      <text x="52" y="43" fill="#67E8F9" font-size="17" font-weight="700">TypeScript</text>
-      <text
-        x="52"
-        y="72"
-        fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">VS Code extensions</tspan><tspan x="52" dy="23">Developer tooling</tspan></text>
+      <text x="52" y="34" fill="#67E8F9" font-size="17" font-weight="700">TypeScript</text>
+      <text x="52" y="58" fill="#D8E1F0" font-size="13">VS Code extensions · developer tooling</text>
     </g>
-    <g transform="translate(70 525)">
+    <g transform="translate(70 485)">
       <rect
         width="500"
-        height="92"
-        rx="20"
+        height="78"
+        rx="18"
         fill="#101723"
         stroke="#26344D"
       />
       <rect
         x="20"
-        y="20"
+        y="18"
         width="8"
-        height="52"
+        height="42"
         rx="4"
         fill="#4ADE80"
       />
-      <text x="52" y="43" fill="#4ADE80" font-size="17" font-weight="700">JavaScript · Shell</text>
-      <text
-        x="52"
-        y="72"
-        fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Web utilities</tspan><tspan x="52" dy="23">System and workflow automation</tspan></text>
+      <text x="52" y="34" fill="#4ADE80" font-size="17" font-weight="700">JavaScript · Shell</text>
+      <text x="52" y="58" fill="#D8E1F0" font-size="13">Web utilities · system and workflow automation</text>
     </g>
-    <g transform="translate(70 630)">
+    <g transform="translate(70 580)">
       <rect
         width="500"
-        height="92"
-        rx="20"
+        height="78"
+        rx="18"
         fill="#101723"
         stroke="#26344D"
       />
       <rect
         x="20"
-        y="20"
+        y="18"
         width="8"
-        height="52"
+        height="42"
         rx="4"
         fill="#F9A8D4"
       />
-      <text x="52" y="43" fill="#F9A8D4" font-size="17" font-weight="700">HTML / CSS</text>
-      <text
-        x="52"
-        y="72"
-        fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Simple web interfaces</tspan><tspan x="52" dy="23">Small supporting UIs</tspan></text>
+      <text x="52" y="34" fill="#F9A8D4" font-size="17" font-weight="700">HTML / CSS</text>
+      <text x="52" y="58" fill="#D8E1F0" font-size="13">Simple web interfaces · supporting UIs</text>
     </g>
-    <text x="630" y="290" fill="#8290A8" font-size="13">DEVOPS / SYSTEMS ENGINEERING</text>
-    <g fill="none" stroke="#26344D" stroke-width="2.2">
-      <path d="M850 350V390M850 390H690V430M850 390V430M850 390H1040V430"/>
-      <path d="M690 480V520H760V555M850 480V520H760V555M1040 480V520H970V555"/>
-      <path d="M760 605V635H865V660M970 605V635H865V660"/>
-    </g>
-    <g transform="translate(760 300)">
+    <text x="630" y="272" fill="#8290A8" font-size="14" font-weight="700">DIRECTION · DEVOPS / SYSTEMS ENGINEERING</text>
+    <text x="630" y="305" fill="#5D6B82" font-size="13">Focus areas — not a hierarchy</text>
+    <g transform="translate(630 335)">
       <rect
-        width="180"
-        height="50"
-        rx="16"
+        width="225"
+        height="68"
+        rx="18"
         fill="#0B1320"
         stroke="#C4B5FD"
         stroke-width="2"
       />
-      <text x="90" y="31" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700">Infrastructure</text>
+      <circle cx="28" cy="34" r="7" fill="#C4B5FD"/>
+      <text x="50" y="40" fill="#F2F6FF" font-size="16" font-weight="700">Linux</text>
     </g>
-    <g transform="translate(620 430)">
+    <g transform="translate(885 335)">
       <rect
-        width="140"
-        height="50"
-        rx="16"
+        width="225"
+        height="68"
+        rx="18"
         fill="#0B1320"
         stroke="#67E8F9"
         stroke-width="2"
       />
-      <text x="70" y="31" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="700">Linux</text>
+      <circle cx="28" cy="34" r="7" fill="#67E8F9"/>
+      <text x="50" y="40" fill="#F2F6FF" font-size="16" font-weight="700">CI/CD</text>
     </g>
-    <g transform="translate(780 430)">
+    <g transform="translate(630 425)">
       <rect
-        width="140"
-        height="50"
-        rx="16"
+        width="225"
+        height="68"
+        rx="18"
         fill="#0B1320"
         stroke="#4ADE80"
         stroke-width="2"
       />
-      <text x="70" y="31" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700">CI/CD</text>
+      <circle cx="28" cy="34" r="7" fill="#4ADE80"/>
+      <text x="50" y="40" fill="#F2F6FF" font-size="16" font-weight="700">Containers</text>
     </g>
-    <g transform="translate(970 430)">
+    <g transform="translate(885 425)">
       <rect
-        width="140"
-        height="50"
-        rx="16"
+        width="225"
+        height="68"
+        rx="18"
         fill="#0B1320"
         stroke="#F9A8D4"
         stroke-width="2"
       />
-      <text x="70" y="31" text-anchor="middle" fill="#F9A8D4" font-size="14" font-weight="700">Containers</text>
+      <circle cx="28" cy="34" r="7" fill="#F9A8D4"/>
+      <text x="50" y="40" fill="#F2F6FF" font-size="16" font-weight="700">Networking</text>
     </g>
-    <g transform="translate(660 555)">
+    <g transform="translate(630 515)">
       <rect
-        width="200"
-        height="50"
-        rx="16"
+        width="225"
+        height="68"
+        rx="18"
         fill="#0B1320"
         stroke="#67E8F9"
         stroke-width="2"
       />
-      <text x="100" y="31" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="700">Networking</text>
+      <circle cx="28" cy="34" r="7" fill="#67E8F9"/>
+      <text x="50" y="40" fill="#F2F6FF" font-size="16" font-weight="700">Observability</text>
     </g>
-    <g transform="translate(870 555)">
+    <g transform="translate(885 515)">
       <rect
-        width="200"
-        height="50"
-        rx="16"
-        fill="#0B1320"
-        stroke="#4ADE80"
-        stroke-width="2"
-      />
-      <text x="100" y="31" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700">Observability</text>
-    </g>
-    <g transform="translate(755 660)">
-      <rect
-        width="220"
-        height="50"
-        rx="16"
+        width="225"
+        height="68"
+        rx="18"
         fill="#0B1320"
         stroke="#FBBF24"
         stroke-width="2"
       />
-      <text x="110" y="31" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700">Reliability</text>
+      <circle cx="28" cy="34" r="7" fill="#FBBF24"/>
+      <text x="50" y="40" fill="#F2F6FF" font-size="16" font-weight="700">Reliability</text>
     </g>
-    <text
-      x="630"
-      y="735"
-      fill="#8290A8"
-      font-size="13"><tspan x="630" dy="0">Goal: understand how software is built, deployed, operated, observed,</tspan><tspan x="630" dy="22">and recovered when something goes wrong.</tspan></text>
+    <g transform="translate(630 620)">
+      <rect
+        width="480"
+        height="100"
+        rx="20"
+        fill="#101723"
+        stroke="#26344D"
+      />
+      <text x="24" y="32" fill="#4ADE80" font-size="13" font-weight="700">GOAL</text>
+      <text
+        x="24"
+        y="60"
+        fill="#D8E1F0"
+        font-size="13"><tspan x="24" dy="0">Understand how software is built, deployed, operated, observed,</tspan><tspan x="24" dy="22">and recovered when something goes wrong.</tspan></text>
+    </g>
   </g>
 </svg>
