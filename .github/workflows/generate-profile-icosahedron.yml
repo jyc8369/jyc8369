@@ -7,6 +7,7 @@ on:
       - scripts/generate_profile_icosahedron.py
       - scripts/generate_profile_panels.py
       - scripts/generate_about_panel.py
+      - scripts/enhance_profile_panels.py
       - scripts/format_profile_svgs.py
       - .github/workflows/generate-profile-icosahedron.yml
   workflow_dispatch:
@@ -38,6 +39,9 @@ jobs:
 
       - name: Generate refined about panel
         run: python3 scripts/generate_about_panel.py
+
+      - name: Apply profile typography and motion
+        run: python3 scripts/enhance_profile_panels.py
 
       - name: Format SVG source
         run: python3 scripts/format_profile_svgs.py
