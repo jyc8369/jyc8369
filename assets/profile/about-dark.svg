@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1200"
-  height="700"
-  viewBox="0 0 1200 700"
+  height="740"
+  viewBox="0 0 1200 740"
   role="img"
   aria-label="About jyc8369"
 >
@@ -32,12 +32,12 @@
       </stop>
     </linearGradient>
   </defs>
-  <rect width="1200" height="700" rx="34" fill="#070B12"/>
+  <rect width="1200" height="740" rx="34" fill="#070B12"/>
   <rect
     x="20"
     y="20"
     width="1160"
-    height="660"
+    height="700"
     rx="28"
     fill="#0D1117"
     stroke="#26344D"
@@ -62,13 +62,13 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="142" fill="#F2F6FF" font-size="36" font-weight="700">I build software around friction I can actually see.</text>
+    <text x="70" y="142" fill="#F2F6FF" font-size="34" font-weight="700">I build software around friction I can actually see.</text>
     <text
       x="70"
       y="184"
       fill="#D8E1F0"
-      font-size="16"><tspan x="70" dy="0">I start from repetitive, inconvenient, or unnecessarily complicated workflows.</tspan><tspan x="70" dy="27">Then I turn that friction into focused tools and small services I can actually use.</tspan></text>
-    <g transform="translate(70 265)">
+      font-size="17"><tspan x="70" dy="0">I start from repetitive, inconvenient, or unnecessarily complicated workflows.</tspan><tspan x="70" dy="29">Then I turn that friction into focused tools and small services I can actually use.</tspan></text>
+    <g transform="translate(70 255)">
       <rect
         width="515"
         height="165"
@@ -90,9 +90,9 @@
         y="78"
         fill="#D8E1F0"
         font-size="14"><tspan x="52" dy="0">Start from a concrete inconvenience, not a feature list.</tspan><tspan x="52" dy="24">Look for repetition, confusing steps, and wasted time.</tspan></text>
-      <text x="52" y="141" fill="#8290A8" font-size="13">Problem first · features second</text>
+      <text x="52" y="141" fill="#D8E1F0" font-size="13">Problem first · features second</text>
     </g>
-    <g transform="translate(615 265)">
+    <g transform="translate(615 255)">
       <rect
         width="515"
         height="165"
@@ -114,12 +114,12 @@
         y="78"
         fill="#D8E1F0"
         font-size="14"><tspan x="52" dy="0">Keep the scope small enough to understand,</tspan><tspan x="52" dy="24">but complete enough to be useful in practice.</tspan></text>
-      <text x="52" y="141" fill="#8290A8" font-size="13">Utilities · developer tools · automation</text>
+      <text x="52" y="141" fill="#D8E1F0" font-size="13">Utilities · developer tools · automation</text>
     </g>
-    <g transform="translate(70 460)">
+    <g transform="translate(70 450)">
       <rect
         width="1060"
-        height="150"
+        height="180"
         rx="20"
         fill="#101723"
         stroke="#26344D"
@@ -128,49 +128,66 @@
         x="20"
         y="20"
         width="8"
-        height="110"
+        height="140"
         rx="4"
         fill="#4ADE80"
       />
       <text x="52" y="43" fill="#4ADE80" font-size="17" font-weight="700">03 · Learn from operation</text>
       <text
         x="52"
-        y="78"
+        y="80"
         fill="#D8E1F0"
-        font-size="14"><tspan x="52" dy="0">Deploy what I build and learn what becomes difficult once software leaves localhost.</tspan><tspan x="52" dy="24">Failures become feedback for the next design, deployment, and operational decision.</tspan></text>
-      <g transform="translate(720 34)">
+        font-size="14"><tspan x="52" dy="0">Deploy what I build and learn what becomes difficult</tspan><tspan x="52" dy="24">once software leaves localhost.</tspan><tspan x="52" dy="31">Failures become feedback for the next design, deployment,</tspan><tspan x="52" dy="24">and operational decision.</tspan></text>
+      <path d="M700 24V156" stroke="#26344D" stroke-width="1.5"/>
+      <text x="735" y="38" fill="#8290A8" font-size="12" font-weight="700" letter-spacing="1.5">CURRENT DIRECTION</text>
+      <g transform="translate(735 52)">
         <rect
-          width="280"
+          width="265"
           height="32"
           rx="16"
           fill="#0B1320"
           stroke="#4ADE80"
+          stroke-width="1.5"
         />
-        <text x="140" y="21" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700">DEVOPS</text>
+        <text x="132.5" y="21" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700">DEVOPS</text>
+      </g>
+      <g transform="translate(735 94)">
         <rect
-          y="42"
-          width="280"
+          width="265"
           height="32"
           rx="16"
           fill="#0B1320"
           stroke="#67E8F9"
+          stroke-width="1.5"
         />
-        <text x="140" y="63" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700">SYSTEMS ENGINEERING</text>
+        <text x="132.5" y="21" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700">SYSTEMS ENGINEERING</text>
+      </g>
+      <g transform="translate(735 136)">
         <rect
-          y="84"
-          width="280"
+          width="265"
           height="32"
           rx="16"
           fill="#0B1320"
           stroke="#FBBF24"
+          stroke-width="1.5"
         />
-        <text x="140" y="105" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="700">RELIABILITY</text>
+        <text x="132.5" y="21" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="700">RELIABILITY</text>
       </g>
     </g>
-    <text
-      x="70"
-      y="650"
-      fill="#8290A8"
-      font-size="14"><tspan x="70" dy="0">Long-term goal: connect development decisions with reliable system operation and real user needs.</tspan></text>
+    <g transform="translate(70 650)">
+      <rect
+        width="1060"
+        height="55"
+        rx="17"
+        fill="#0B1320"
+        stroke="#26344D"
+      />
+      <text x="22" y="22" fill="#67E8F9" font-size="12" font-weight="700" letter-spacing="1.3">LONG-TERM GOAL</text>
+      <text
+        x="22"
+        y="42"
+        fill="#D8E1F0"
+        font-size="14">Connect development decisions with reliable system operation and real user needs.</text>
+    </g>
   </g>
 </svg>
