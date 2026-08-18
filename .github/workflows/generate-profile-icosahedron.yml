@@ -1,9 +1,11 @@
-name: Generate profile icosahedron
+name: Generate and format profile SVGs
 
 on:
   push:
     paths:
+      - assets/profile/*.svg
       - scripts/generate_profile_icosahedron.py
+      - scripts/format_profile_svgs.py
       - .github/workflows/generate-profile-icosahedron.yml
   workflow_dispatch:
 
@@ -11,11 +13,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-icosahedron
+  group: profile-svg-maintenance
   cancel-in-progress: true
 
 jobs:
-  generate:
+  maintain:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -29,32 +31,42 @@ jobs:
           mv dark.svg assets/profile/banner-dark.svg
           mv light.svg assets/profile/banner-light.svg
 
+      - name: Format SVG source
+        run: python3 scripts/format_profile_svgs.py
+
       - name: Validate SVG output
         run: |
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
+          paths = sorted(Path("assets/profile").glob("*.svg"))
+          assert paths, "No profile SVG files found"
+
+          for path in paths:
+              ET.parse(path)
+              text = path.read_text(encoding="utf-8")
+              assert text.endswith("\n")
+              print(f"validated {path}: {len(text)} bytes")
+
           for name in (
               "assets/profile/banner-dark.svg",
               "assets/profile/banner-light.svg",
           ):
-              ET.parse(name)
               text = Path(name).read_text(encoding="utf-8")
               assert "mathematically regular 3D icosahedron" in text
               assert "30 equal edges" in text
-              print(f"validated {name}: {len(text)} bytes")
           PY
 
-      - name: Commit generated banners
+      - name: Commit generated and formatted SVGs
         run: |
-          if git diff --quiet -- assets/profile/banner-dark.svg assets/profile/banner-light.svg; then
-            echo "Generated banners are already current."
+          if git diff --quiet -- assets/profile; then
+            echo "Profile SVGs are already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/profile/banner-dark.svg assets/profile/banner-light.svg
-          git commit -m "feat: render mathematically regular 3D icosahedron"
+          git add assets/profile/*.svg
+          git commit -m "chore: format profile SVG source"
           git push
