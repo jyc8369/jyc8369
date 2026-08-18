@@ -38,14 +38,23 @@ def serialize_inline(node: Node, level: int) -> list[str]:
     inner = "".join(child.toxml() for child in node.childNodes)
     closing = f"</{node.tagName}>"
     combined = f"{opening}{inner}{closing}"
+    attrs = attributes(node)
 
-    if len(indent) + len(combined) <= 140:
+    if not attrs or len(indent) + len(combined) <= 140:
         return [indent + combined]
 
     lines = [indent + f"<{node.tagName}"]
-    for name, value in attributes(node):
+    for name, value in attrs[:-1]:
         lines.append(indent + "  " + f"{name}={quoteattr(value)}")
-    lines.append(indent + ">" + inner + closing)
+
+    last_name, last_value = attrs[-1]
+    lines.append(
+        indent
+        + "  "
+        + f"{last_name}={quoteattr(last_value)}>"
+        + inner
+        + closing
+    )
     return lines
 
 
@@ -62,7 +71,6 @@ def serialize_element(node: Node, level: int = 0) -> list[str]:
         child for child in node.childNodes if child.nodeType == Node.TEXT_NODE and child.data
     ]
 
-    # Mixed content is left compact to avoid changing SVG text semantics.
     if text_children:
         return [indent + node.toxml()]
 
