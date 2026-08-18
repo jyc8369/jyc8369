@@ -8,48 +8,85 @@
 
 # jyc8369
 
-**작고 구체적인 문제를 해결하는 실용적인 소프트웨어를 만듭니다.**
+**Hobbyist developer learning to build, deploy, and operate practical software.**
 
-반복 작업은 자동화하고, 아이디어는 실제로 사용할 수 있는 도구로 구현합니다.  
-작은 범위에서 빠르게 만들고, 반복 개선하며, 사용 방법까지 문서화합니다.
+I care about **convenience and efficiency**. I like finding friction in everyday technical workflows, understanding why it is inconvenient, and building small tools or services that make the process simpler.
 
-[전체 저장소](https://github.com/jyc8369?tab=repositories)
+My long-term goal is to work in **DevOps and Systems Engineering**.
+
+[View all repositories](https://github.com/jyc8369?tab=repositories)
 
 </div>
 
 ---
 
-## 작업 영역
+## About Me
 
-- **Desktop utilities** — 파일 변환, 로컬 작업, 반복 과정 단순화
-- **AI-assisted automation** — AI API를 실제 작업 흐름에 연결하는 도구
-- **Developer tooling** — VS Code 확장, Codex 플러그인, 개발 환경 보조
+I develop software as a hobby and use each project as a way to understand real problems from the user's point of view.
 
-## 대표 프로젝트
+When I find something repetitive, inconvenient, or unnecessarily complicated, I try to understand where the friction comes from and how software could remove it. I prefer focused tools that solve a concrete problem over adding complexity for its own sake.
 
-| 프로젝트 | 해결하는 문제 | 주요 기술 |
+Because I want to grow toward **DevOps and Systems Engineering**, I am also interested in what people actually need from the systems and hardware they depend on. I want to understand both sides: the people who build software and the people who rely on the infrastructure that runs it.
+
+## Learning Through Small Services
+
+I build and deploy small services to experience more of the software lifecycle than development alone.
+
+By operating what I build, I can learn what software engineers actually want from deployment environments and what becomes difficult after a service leaves the development machine.
+
+When something fails in a deployed service, I try to investigate and resolve the problem from the software engineer's point of view. Afterward, I think about what could make the same situation easier to prevent, detect, diagnose, or recover from.
+
+This helps me learn why areas such as **automation, observability, deployment workflows, infrastructure, and reliability** matter in practice rather than only in theory.
+
+## What I Value
+
+### Convenience
+
+A tool should reduce unnecessary effort. I want users to spend their time on the task they actually care about instead of learning complicated steps that the software could handle for them.
+
+### Efficiency
+
+I prefer to automate repetitive work and reduce workflows that require unnecessary steps. If the same result can be achieved with less time and effort, I want to understand how to make that possible.
+
+### Practicality
+
+A small project can still be valuable if it solves a clear problem and is usable in a real workflow. I care more about whether something is useful than how many features it has.
+
+### Iteration
+
+I prefer building a usable version, trying it in practice, finding the next inconvenience, and improving it step by step.
+
+## What I Build
+
+- Developer tools
+- Desktop utilities
+- Workflow automation
+- VS Code extensions
+- AI-assisted tools
+- Small services for learning deployment and operations
+
+## Featured Projects
+
+| Project | What it does | Main technologies |
 |:--|:--|:--|
-| [Minecraft Mod Translator Gemini](https://github.com/jyc8369/Minecraft_Mod_Translator_Gemini) | Minecraft 모드의 언어 파일을 Gemini로 번역하고 새 JAR을 생성합니다. | `Python` `Gemini API` |
-| [Icon Bundler](https://github.com/jyc8369/Icon_Bundler) | PNG·JPG 이미지를 Windows용 ICO 또는 macOS용 ICNS로 변환합니다. | `Python` |
-| [Codex Multi Login](https://github.com/jyc8369/Codex_Multi_Login) | 여러 Codex 계정을 저장하고 전환할 수 있는 VS Code 확장입니다. | `TypeScript` `VS Code` |
-| [Cost Aware Agent Router](https://github.com/jyc8369/Cost_Aware_Agent_Router) | 추론이 필요한 작업만 더 강한 가용 에이전트에 위임하는 Codex 플러그인입니다. | `Codex Plugin` |
+| [Minecraft Mod Translator Gemini](https://github.com/jyc8369/Minecraft_Mod_Translator_Gemini) | Finds Minecraft mod language files, translates them with Gemini, and creates a translated copy of the mod. | `Python` `Gemini API` |
+| [Icon Bundler](https://github.com/jyc8369/Icon_Bundler) | Converts PNG and JPEG images into Windows ICO or macOS ICNS icon files. | `Python` |
+| [Codex Multi Login](https://github.com/jyc8369/Codex_Multi_Login) | A VS Code extension for managing multiple Codex accounts and switching between them more easily. | `TypeScript` `VS Code` |
+| [Cost Aware Agent Router](https://github.com/jyc8369/Cost_Aware_Agent_Router) | A Codex plugin that delegates reasoning-heavy work to stronger available agents while keeping deterministic execution local. | `Codex Plugin` `Agent Routing` |
 
-## 기술과 관심 영역
+## Programming Languages
 
-`Python` · `TypeScript` · `JavaScript` · `HTML/CSS` · `Shell`  
-`Desktop Apps` · `VS Code Extensions` · `AI APIs` · `Automation`
+- **Python** — automation, desktop utilities, and API integrations
+- **TypeScript** — VS Code extensions and developer tooling
+- **JavaScript** — web and utility development
+- **Shell** — development and system automation
 
-## 작업 방식
+**Web:** `HTML` · `CSS`
 
-1. **Utility first** — 기능을 늘리기 전에 해결할 문제를 먼저 정합니다.
-2. **Small and complete** — 범위를 작게 유지하되 실제로 사용할 수 있는 상태까지 만듭니다.
-3. **Document the workflow** — 설치 방법, 사용 과정, 제약사항을 저장소에 남깁니다.
+## Current Direction
 
-<details>
-<summary>프로필 쇼케이스 설정 파일</summary>
+My goal is to become an engineer who understands not only how software is written, but also how it is **built, deployed, operated, observed, and recovered when something goes wrong**.
 
-- [소개 원문](./ABOUT.md)
-- [자동 가져오기 규격](./SHOWCASE_IMPORT.md)
-- [쇼케이스 설정](./showcase.json)
+I am currently interested in learning more about:
 
-</details>
+`DevOps` · `Systems Engineering` · `Linux` · `Automation` · `Infrastructure` · `CI/CD` · `Containers` · `Networking` · `Observability` · `Reliability`
