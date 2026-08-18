@@ -4,11 +4,13 @@ import math
 from itertools import combinations
 from pathlib import Path
 
+WIDTH = 1200
+HEIGHT = 800
 PHI = (1 + 5**0.5) / 2
 FRAMES = 12
 DURATION = "18s"
-CENTER = (300.0, 188.0)
-SCALE = 48.0
+CENTER = (890.0, 405.0)
+SCALE = 72.0
 CAMERA = 5.8
 
 VERTICES = (
@@ -22,7 +24,10 @@ def distance(a, b):
     return math.sqrt(sum((a[i] - b[i]) ** 2 for i in range(3)))
 
 
-EDGE_LENGTH = min(distance(VERTICES[i], VERTICES[j]) for i, j in combinations(range(12), 2))
+EDGE_LENGTH = min(
+    distance(VERTICES[i], VERTICES[j])
+    for i, j in combinations(range(12), 2)
+)
 EDGES = tuple(
     (i, j)
     for i, j in combinations(range(12), 2)
@@ -71,7 +76,11 @@ def rotate(vertex, ax, ay, az):
 def project(vertex):
     x, y, z = vertex
     perspective = CAMERA / (CAMERA - z)
-    return CENTER[0] + x * SCALE * perspective, CENTER[1] + y * SCALE * perspective, z
+    return (
+        CENTER[0] + x * SCALE * perspective,
+        CENTER[1] + y * SCALE * perspective,
+        z,
+    )
 
 
 def normal(a, b, c):
@@ -134,26 +143,57 @@ def face_points(face, frame):
 def face_opacity(face, frame):
     a, b, c = (ROTATED[frame][i] for i in face)
     facing = max(0.0, normal(a, b, c)[2])
-    depth = max(0.0, min(1.0, ((a[2] + b[2] + c[2]) / 3 + PHI) / (2 * PHI)))
+    depth = max(
+        0.0,
+        min(1.0, ((a[2] + b[2] + c[2]) / 3 + PHI) / (2 * PHI)),
+    )
     return number((0.025 + 0.16 * facing) * (0.7 + 0.3 * depth))
 
 
 THEMES = {
     "dark": dict(
-        outer="#070B12", bg0="#070B15", bg1="#0B1425", border="#26344D",
-        bar="#080E19", title="#F2F6FF", body="#CDD6E6", muted="#8190A8",
-        faint="#52617A", panel="#0A1120", panel_border="#31405B", grid="#52617A",
-        a0="#7C3AED", a1="#22D3EE", a2="#10B981", node="#E6FCFF",
-        back="#5F7397", chips=("#10261D", "#102331", "#24163A"),
-        chip_text=("#4ADE80", "#67E8F9", "#C4B5FD"), status="#10B981",
+        outer="#070B12",
+        bg0="#070B15",
+        bg1="#0B1425",
+        border="#26344D",
+        bar="#080E19",
+        title="#F2F6FF",
+        body="#CDD6E6",
+        muted="#8190A8",
+        faint="#52617A",
+        panel="#0A1120",
+        panel_border="#31405B",
+        grid="#52617A",
+        a0="#7C3AED",
+        a1="#22D3EE",
+        a2="#10B981",
+        node="#E6FCFF",
+        back="#5F7397",
+        chips=("#10261D", "#102331", "#24163A"),
+        chip_text=("#4ADE80", "#67E8F9", "#C4B5FD"),
+        status="#10B981",
     ),
     "light": dict(
-        outer="#F6F8FA", bg0="#F6F8FC", bg1="#EDF3FA", border="#D0D7E2",
-        bar="#F0F3F7", title="#1F2328", body="#32383F", muted="#66707B",
-        faint="#8A949F", panel="#FFFFFF", panel_border="#D8DEE8", grid="#8A949F",
-        a0="#8250DF", a1="#0969DA", a2="#1A7F37", node="#FFFFFF",
-        back="#9AA8B9", chips=("#EAF7EE", "#EAF2FB", "#F3EAFE"),
-        chip_text=("#1A7F37", "#0969DA", "#8250DF"), status="#1A7F37",
+        outer="#F6F8FA",
+        bg0="#F6F8FC",
+        bg1="#EDF3FA",
+        border="#D0D7E2",
+        bar="#F0F3F7",
+        title="#1F2328",
+        body="#32383F",
+        muted="#66707B",
+        faint="#8A949F",
+        panel="#FFFFFF",
+        panel_border="#D8DEE8",
+        grid="#8A949F",
+        a0="#8250DF",
+        a1="#0969DA",
+        a2="#1A7F37",
+        node="#FFFFFF",
+        back="#9AA8B9",
+        chips=("#EAF7EE", "#EAF2FB", "#F3EAFE"),
+        chip_text=("#1A7F37", "#0969DA", "#8250DF"),
+        status="#1A7F37",
     ),
 }
 
@@ -168,7 +208,7 @@ def generate(theme_name):
         for face in FACES
     )
     nodes = "".join(
-        f'<circle cx="{number(PROJECTED[0][index][0])}" cy="{number(PROJECTED[0][index][1])}" r="3" fill="{c["node"]}" stroke="url(#accent)" stroke-width="1.2" filter="url(#softGlow)">'
+        f'<circle cx="{number(PROJECTED[0][index][0])}" cy="{number(PROJECTED[0][index][1])}" r="3.3" fill="{c["node"]}" stroke="url(#accent)" stroke-width="1.2" filter="url(#softGlow)">'
         f'<animate attributeName="cx" values="{vertex_series(index, 0)}" dur="{DURATION}" repeatCount="indefinite" calcMode="linear"/>'
         f'<animate attributeName="cy" values="{vertex_series(index, 1)}" dur="{DURATION}" repeatCount="indefinite" calcMode="linear"/>'
         '</circle>'
@@ -177,7 +217,7 @@ def generate(theme_name):
     chip = c["chips"]
     chip_text = c["chip_text"]
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-label="jyc8369 mathematically regular 3D icosahedron profile banner"><desc>Regular icosahedron generated from the standard golden-ratio coordinates, 30 equal 3D edges, rotation matrices, and perspective projection.</desc><defs><linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c['bg0']}"/><stop offset="1" stop-color="{c['bg1']}"/></linearGradient><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c['a0']}"><animate attributeName="stop-color" values="{c['a0']};{c['a1']};{c['a2']};{c['a0']}" dur="12s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="{c['a1']}"><animate attributeName="stop-color" values="{c['a1']};{c['a2']};{c['a0']};{c['a1']}" dur="12s" repeatCount="indefinite"/></stop></linearGradient><linearGradient id="faceFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c['a0']}"/><stop offset=".55" stop-color="{c['a1']}"/><stop offset="1" stop-color="{c['a2']}"/></linearGradient><radialGradient id="coreGlow"><stop offset="0" stop-color="{c['node']}" stop-opacity=".95"/><stop offset=".28" stop-color="{c['a1']}" stop-opacity=".5"/><stop offset="1" stop-color="{c['a1']}" stop-opacity="0"/></radialGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="{c['grid']}" stroke-opacity=".12" stroke-width=".8"/></pattern><filter id="blur32" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="32"/></filter><filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="wideGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter><clipPath id="window"><rect x="20" y="20" width="1160" height="440" rx="28"/></clipPath><path id="wire" d="{INITIAL_WIRE}"><animate attributeName="d" values="{WIRE_VALUES}" dur="{DURATION}" repeatCount="indefinite" calcMode="linear"/></path></defs><rect width="1200" height="480" rx="34" fill="{c['outer']}"/><g clip-path="url(#window)"><rect x="20" y="20" width="1160" height="440" rx="28" fill="url(#background)" stroke="{c['border']}" stroke-width="2"/><circle cx="920" cy="175" r="180" fill="{c['a1']}" opacity=".16" filter="url(#blur32)"><animate attributeName="cx" values="900;945;900" dur="13s" repeatCount="indefinite"/><animate attributeName="cy" values="160;195;160" dur="15s" repeatCount="indefinite"/></circle><circle cx="1100" cy="360" r="195" fill="{c['a0']}" opacity=".16" filter="url(#blur32)"><animate attributeName="cx" values="1110;1060;1110" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="365;325;365" dur="14s" repeatCount="indefinite"/></circle><rect x="20" y="20" width="1160" height="52" fill="{c['bar']}"/><circle cx="48" cy="46" r="6" fill="#FF5F56"/><circle cx="70" cy="46" r="6" fill="#FFBD2E"/><circle cx="92" cy="46" r="6" fill="#27C93F"/><text x="600" y="51" text-anchor="middle" fill="{c['muted']}" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ ./render --true-3d-icosahedron</text><rect x="20" y="71" width="1160" height="2" fill="url(#accent)"/><g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"><text x="72" y="128" fill="{c['faint']}" font-size="13" letter-spacing="2.7">PROFILE / OVERVIEW</text><text x="72" y="196" fill="{c['title']}" font-size="56" font-weight="700">jyc8369</text><text x="74" y="238" fill="{c['body']}" font-size="21">Practical software for concrete problems.</text><text x="74" y="270" fill="{c['muted']}" font-size="15">Automation, utilities, and developer tooling built around real workflows.</text><rect x="73" y="306" width="126" height="36" rx="18" fill="{chip[0]}" stroke="{chip_text[0]}"/><text x="136" y="330" text-anchor="middle" fill="{chip_text[0]}" font-size="14" font-weight="600">AUTOMATION</text><rect x="211" y="306" width="126" height="36" rx="18" fill="{chip[1]}" stroke="{chip_text[1]}"/><text x="274" y="330" text-anchor="middle" fill="{chip_text[1]}" font-size="14" font-weight="600">UTILITIES</text><rect x="349" y="306" width="142" height="36" rx="18" fill="{chip[2]}" stroke="{chip_text[2]}"/><text x="420" y="330" text-anchor="middle" fill="{chip_text[2]}" font-size="14" font-weight="600">DEV TOOLS</text><text x="74" y="388" fill="{c['muted']}" font-size="14">&gt; build · deploy · observe · improve</text><rect x="383" y="372" width="9" height="19" rx="1" fill="{c['a1']}"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect><g transform="translate(660 96)"><rect x="0" y="0" width="470" height="330" rx="22" fill="{c['panel']}" fill-opacity=".72" stroke="{c['panel_border']}" stroke-width="1.4"/><rect x="16" y="16" width="438" height="298" rx="17" fill="url(#grid)"/><text x="28" y="40" fill="{c['faint']}" font-size="12" letter-spacing="2.2">TRUE 3D / REGULAR ICOSAHEDRON</text><text x="28" y="66" fill="{c['muted']}" font-size="12">12 vertices · 30 equal edges · 20 equilateral faces</text><ellipse cx="300" cy="188" rx="170" ry="78" fill="none" stroke="{c['a1']}" stroke-opacity=".28" stroke-width="1.2" stroke-dasharray="4 10" transform="rotate(-16 300 188)"><animate attributeName="stroke-dashoffset" values="0;-112" dur="14s" repeatCount="indefinite"/></ellipse><ellipse cx="300" cy="188" rx="152" ry="62" fill="none" stroke="{c['a0']}" stroke-opacity=".2" stroke-width="1.1" stroke-dasharray="2 12" transform="rotate(38 300 188)"><animate attributeName="stroke-dashoffset" values="0;104" dur="18s" repeatCount="indefinite"/></ellipse>{face_markup}<use href="#wire" fill="none" stroke="{c['a1']}" stroke-opacity=".25" stroke-width="9" stroke-linecap="round" filter="url(#wideGlow)"/><use href="#wire" fill="none" stroke="{c['back']}" stroke-opacity=".3" stroke-width="3.4" stroke-linecap="round"/><use href="#wire" fill="none" stroke="url(#accent)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>{nodes}<circle cx="300" cy="188" r="24" fill="url(#coreGlow)"><animate attributeName="r" values="20;25;20" dur="6s" repeatCount="indefinite"/></circle><text x="28" y="296" fill="{c['muted']}" font-size="11">φ = (1 + √5) / 2 · rotation matrix · perspective projection</text><circle cx="430" cy="292" r="5" fill="{c['status']}"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle></g></g></g></svg>'''
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="jyc8369 mathematically regular 3D icosahedron profile banner"><desc>Regular icosahedron generated from the standard golden-ratio coordinates, 30 equal 3D edges, rotation matrices, and perspective projection.</desc><defs><linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c['bg0']}"/><stop offset="1" stop-color="{c['bg1']}"/></linearGradient><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c['a0']}"><animate attributeName="stop-color" values="{c['a0']};{c['a1']};{c['a2']};{c['a0']}" dur="12s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="{c['a1']}"><animate attributeName="stop-color" values="{c['a1']};{c['a2']};{c['a0']};{c['a1']}" dur="12s" repeatCount="indefinite"/></stop></linearGradient><linearGradient id="faceFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c['a0']}"/><stop offset=".55" stop-color="{c['a1']}"/><stop offset="1" stop-color="{c['a2']}"/></linearGradient><radialGradient id="coreGlow"><stop offset="0" stop-color="{c['node']}" stop-opacity=".95"/><stop offset=".28" stop-color="{c['a1']}" stop-opacity=".5"/><stop offset="1" stop-color="{c['a1']}" stop-opacity="0"/></radialGradient><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="{c['grid']}" stroke-opacity=".12" stroke-width=".8"/></pattern><filter id="blur40" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="40"/></filter><filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="wideGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="6"/></filter><clipPath id="window"><rect x="20" y="20" width="1160" height="760" rx="30"/></clipPath><path id="wire" d="{INITIAL_WIRE}"><animate attributeName="d" values="{WIRE_VALUES}" dur="{DURATION}" repeatCount="indefinite" calcMode="linear"/></path></defs><rect width="1200" height="800" rx="36" fill="{c['outer']}"/><g clip-path="url(#window)"><rect x="20" y="20" width="1160" height="760" rx="30" fill="url(#background)" stroke="{c['border']}" stroke-width="2"/><circle cx="910" cy="250" r="250" fill="{c['a1']}" opacity=".14" filter="url(#blur40)"><animate attributeName="cx" values="885;945;885" dur="13s" repeatCount="indefinite"/><animate attributeName="cy" values="225;285;225" dur="15s" repeatCount="indefinite"/></circle><circle cx="1080" cy="610" r="270" fill="{c['a0']}" opacity=".14" filter="url(#blur40)"><animate attributeName="cx" values="1090;1025;1090" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="625;570;625" dur="14s" repeatCount="indefinite"/></circle><rect x="20" y="20" width="1160" height="56" fill="{c['bar']}"/><circle cx="50" cy="48" r="6" fill="#FF5F56"/><circle cx="72" cy="48" r="6" fill="#FFBD2E"/><circle cx="94" cy="48" r="6" fill="#27C93F"/><text x="600" y="53" text-anchor="middle" fill="{c['muted']}" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ ./render --true-3d-icosahedron</text><rect x="20" y="75" width="1160" height="2" fill="url(#accent)"/><g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"><text x="76" y="150" fill="{c['faint']}" font-size="14" letter-spacing="2.9">PROFILE / OVERVIEW</text><text x="76" y="236" fill="{c['title']}" font-size="68" font-weight="700">jyc8369</text><text x="78" y="284" fill="{c['body']}" font-size="24">Practical software</text><text x="78" y="318" fill="{c['body']}" font-size="24">for concrete problems.</text><text x="78" y="358" fill="{c['muted']}" font-size="16">Automation, utilities, and developer tooling</text><text x="78" y="384" fill="{c['muted']}" font-size="16">built around real workflows.</text><rect x="77" y="426" width="132" height="40" rx="20" fill="{chip[0]}" stroke="{chip_text[0]}"/><text x="143" y="453" text-anchor="middle" fill="{chip_text[0]}" font-size="15" font-weight="600">AUTOMATION</text><rect x="223" y="426" width="132" height="40" rx="20" fill="{chip[1]}" stroke="{chip_text[1]}"/><text x="289" y="453" text-anchor="middle" fill="{chip_text[1]}" font-size="15" font-weight="600">UTILITIES</text><rect x="369" y="426" width="148" height="40" rx="20" fill="{chip[2]}" stroke="{chip_text[2]}"/><text x="443" y="453" text-anchor="middle" fill="{chip_text[2]}" font-size="15" font-weight="600">DEV TOOLS</text><rect x="76" y="520" width="500" height="150" rx="24" fill="{c['panel']}" fill-opacity=".56" stroke="{c['panel_border']}"/><text x="102" y="558" fill="{c['faint']}" font-size="12" letter-spacing="2.2">HOW I LIKE TO WORK</text><text x="102" y="598" fill="{c['body']}" font-size="17">Notice friction. Build a usable fix.</text><text x="102" y="630" fill="{c['muted']}" font-size="15">Deploy it, observe what breaks, and improve the next step.</text><text x="78" y="730" fill="{c['muted']}" font-size="15">&gt; build · deploy · observe · improve</text><rect x="399" y="711" width="10" height="22" rx="1" fill="{c['a1']}"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect><g><rect x="628" y="112" width="506" height="610" rx="28" fill="{c['panel']}" fill-opacity=".72" stroke="{c['panel_border']}" stroke-width="1.5"/><rect x="646" y="130" width="470" height="574" rx="22" fill="url(#grid)"/><text x="668" y="168" fill="{c['faint']}" font-size="13" letter-spacing="2.3">TRUE 3D / REGULAR ICOSAHEDRON</text><text x="668" y="198" fill="{c['muted']}" font-size="13">12 vertices · 30 equal edges · 20 equilateral faces</text><ellipse cx="890" cy="405" rx="224" ry="104" fill="none" stroke="{c['a1']}" stroke-opacity=".28" stroke-width="1.4" stroke-dasharray="5 12" transform="rotate(-16 890 405)"><animate attributeName="stroke-dashoffset" values="0;-132" dur="14s" repeatCount="indefinite"/></ellipse><ellipse cx="890" cy="405" rx="202" ry="84" fill="none" stroke="{c['a0']}" stroke-opacity=".2" stroke-width="1.2" stroke-dasharray="2 14" transform="rotate(38 890 405)"><animate attributeName="stroke-dashoffset" values="0;124" dur="18s" repeatCount="indefinite"/></ellipse>{face_markup}<use href="#wire" fill="none" stroke="{c['a1']}" stroke-opacity=".25" stroke-width="11" stroke-linecap="round" filter="url(#wideGlow)"/><use href="#wire" fill="none" stroke="{c['back']}" stroke-opacity=".3" stroke-width="4" stroke-linecap="round"/><use href="#wire" fill="none" stroke="url(#accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>{nodes}<circle cx="890" cy="405" r="30" fill="url(#coreGlow)"><animate attributeName="r" values="25;31;25" dur="6s" repeatCount="indefinite"/></circle><text x="668" y="664" fill="{c['muted']}" font-size="12">φ = (1 + √5) / 2 · rotation matrix · perspective projection</text><circle cx="1084" cy="658" r="5" fill="{c['status']}"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle></g></g></g></svg>'''
 
 
 for name in THEMES:
