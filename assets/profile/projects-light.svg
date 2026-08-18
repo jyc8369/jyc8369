@@ -67,12 +67,14 @@
       y="138"
       fill="#1F2328"
       font-size="34"
-      font-weight="700"><tspan x="70" dy="0">Projects built around problems</tspan><tspan x="70" dy="42">I actually wanted to solve</tspan></text>
+      font-weight="700"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="70" dy="0">Projects built around problems</tspan><tspan x="70" dy="42">I actually wanted to solve</tspan></text>
     <text
       x="70"
       y="238"
       fill="#24292F"
-      font-size="16"><tspan x="70" dy="0">Each project starts from a concrete inconvenience, then becomes a tool, extension,</tspan><tspan x="70" dy="27">or experiment that can be used in practice rather than remaining only an idea.</tspan></text>
+      font-size="16"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="70" dy="0">Each project starts from a concrete inconvenience, then becomes a tool, extension,</tspan><tspan x="70" dy="27">or experiment that can be used in practice rather than remaining only an idea.</tspan></text>
     <g transform="translate(70 330)">
       <rect
         width="510"
@@ -88,14 +90,59 @@
         height="145"
         rx="4"
         fill="#8250DF"
-      />
-      <text x="52" y="43" fill="#8250DF" font-size="16" font-weight="700">Minecraft Mod Translator Gemini</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="6.8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.00s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="43"
+        fill="#8250DF"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Minecraft Mod Translator Gemini</text>
       <text
         x="52"
         y="78"
         fill="#24292F"
-        font-size="14"><tspan x="52" dy="0">Translates Minecraft mod language files with Gemini,</tspan><tspan x="52" dy="24">then rebuilds a translated copy of the mod package.</tspan></text>
-      <text x="52" y="161" fill="#6E7781" font-size="13">Python · Gemini API · automation</text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="52" dy="0">Translates Minecraft mod language files with Gemini,</tspan><tspan x="52" dy="24">then rebuilds a translated copy of the mod package.</tspan></text>
+      <text
+        x="52"
+        y="161"
+        fill="#6E7781"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Python · Gemini API · automation</text>
+      <circle cx="474" cy="34" r="4" fill="#8250DF">
+        <animate
+          attributeName="opacity"
+          values=".25;1;.25"
+          dur="6.6s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.0s"
+        />
+        <animate
+          attributeName="r"
+          values="3;5;3"
+          dur="6.6s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.0s"
+        />
+      </circle>
     </g>
     <g transform="translate(620 330)">
       <rect
@@ -112,14 +159,59 @@
         height="145"
         rx="4"
         fill="#0969DA"
-      />
-      <text x="52" y="43" fill="#0969DA" font-size="16" font-weight="700">Codex Multi Login</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.55s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="43"
+        fill="#0969DA"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Codex Multi Login</text>
       <text
         x="52"
         y="78"
         fill="#24292F"
-        font-size="14"><tspan x="52" dy="0">A VS Code extension for managing multiple Codex</tspan><tspan x="52" dy="24">accounts and switching between them more easily.</tspan></text>
-      <text x="52" y="161" fill="#6E7781" font-size="13">TypeScript · VS Code · developer tooling</text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="52" dy="0">A VS Code extension for managing multiple Codex</tspan><tspan x="52" dy="24">accounts and switching between them more easily.</tspan></text>
+      <text
+        x="52"
+        y="161"
+        fill="#6E7781"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">TypeScript · VS Code · developer tooling</text>
+      <circle cx="474" cy="34" r="4" fill="#0969DA">
+        <animate
+          attributeName="opacity"
+          values=".25;1;.25"
+          dur="6.6s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.0s"
+        />
+        <animate
+          attributeName="r"
+          values="3;5;3"
+          dur="6.6s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.0s"
+        />
+      </circle>
     </g>
     <g transform="translate(70 555)">
       <rect
@@ -136,14 +228,59 @@
         height="145"
         rx="4"
         fill="#1A7F37"
-      />
-      <text x="52" y="43" fill="#1A7F37" font-size="16" font-weight="700">Icon Bundler</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="8.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.10s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="43"
+        fill="#1A7F37"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Icon Bundler</text>
       <text
         x="52"
         y="78"
         fill="#24292F"
-        font-size="14"><tspan x="52" dy="0">Converts source images into Windows ICO and macOS</tspan><tspan x="52" dy="24">ICNS files for application packaging.</tspan></text>
-      <text x="52" y="161" fill="#6E7781" font-size="13">Python · desktop utility · packaging</text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="52" dy="0">Converts source images into Windows ICO and macOS</tspan><tspan x="52" dy="24">ICNS files for application packaging.</tspan></text>
+      <text
+        x="52"
+        y="161"
+        fill="#6E7781"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Python · desktop utility · packaging</text>
+      <circle cx="474" cy="34" r="4" fill="#1A7F37">
+        <animate
+          attributeName="opacity"
+          values=".25;1;.25"
+          dur="6.6s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="2.0s"
+        />
+        <animate
+          attributeName="r"
+          values="3;5;3"
+          dur="6.6s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="2.0s"
+        />
+      </circle>
     </g>
     <g transform="translate(620 555)">
       <rect
@@ -160,14 +297,59 @@
         height="145"
         rx="4"
         fill="#BF3989"
-      />
-      <text x="52" y="43" fill="#BF3989" font-size="16" font-weight="700">Cost Aware Agent Router</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="6.8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.65s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="43"
+        fill="#BF3989"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Cost Aware Agent Router</text>
       <text
         x="52"
         y="78"
         fill="#24292F"
-        font-size="14"><tspan x="52" dy="0">Routes reasoning-heavy work to stronger available</tspan><tspan x="52" dy="24">agents while keeping deterministic execution local.</tspan></text>
-      <text x="52" y="161" fill="#6E7781" font-size="13">Codex plugin · agent routing · local execution</text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="52" dy="0">Routes reasoning-heavy work to stronger available</tspan><tspan x="52" dy="24">agents while keeping deterministic execution local.</tspan></text>
+      <text
+        x="52"
+        y="161"
+        fill="#6E7781"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Codex plugin · agent routing · local execution</text>
+      <circle cx="474" cy="34" r="4" fill="#BF3989">
+        <animate
+          attributeName="opacity"
+          values=".25;1;.25"
+          dur="6.6s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="3.0s"
+        />
+        <animate
+          attributeName="r"
+          values="3;5;3"
+          dur="6.6s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="3.0s"
+        />
+      </circle>
     </g>
   </g>
 </svg>

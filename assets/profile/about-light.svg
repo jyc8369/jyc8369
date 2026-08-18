@@ -62,12 +62,19 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="142" fill="#1F2328" font-size="34" font-weight="700">I build software around friction I can actually see.</text>
+    <text
+      x="70"
+      y="142"
+      fill="#1F2328"
+      font-size="34"
+      font-weight="700"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">I build software around friction I can actually see.</text>
     <text
       x="70"
       y="184"
       fill="#24292F"
-      font-size="17"><tspan x="70" dy="0">I start from repetitive, inconvenient, or unnecessarily complicated workflows.</tspan><tspan x="70" dy="29">Then I turn that friction into focused tools and small services I can actually use.</tspan></text>
+      font-size="17"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="70" dy="0">I start from repetitive, inconvenient, or unnecessarily complicated workflows.</tspan><tspan x="70" dy="29">Then I turn that friction into focused tools and small services I can actually use.</tspan></text>
     <g transform="translate(70 255)">
       <rect
         width="515"
@@ -83,14 +90,45 @@
         height="125"
         rx="4"
         fill="#8250DF"
-      />
-      <text x="52" y="43" fill="#8250DF" font-size="17" font-weight="700">01 · Notice real friction</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="6.8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.00s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="43"
+        fill="#8250DF"
+        font-size="17"
+        font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
+        letter-spacing=".6">01</text>
+      <text
+        x="90"
+        y="43"
+        fill="#8250DF"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Notice real friction</text>
       <text
         x="52"
         y="78"
         fill="#24292F"
-        font-size="14"><tspan x="52" dy="0">Start from a concrete inconvenience, not a feature list.</tspan><tspan x="52" dy="24">Look for repetition, confusing steps, and wasted time.</tspan></text>
-      <text x="52" y="141" fill="#24292F" font-size="13">Problem first · features second</text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="52" dy="0">Start from a concrete inconvenience, not a feature list.</tspan><tspan x="52" dy="24">Look for repetition, confusing steps, and wasted time.</tspan></text>
+      <text
+        x="52"
+        y="141"
+        fill="#24292F"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Problem first · features second</text>
     </g>
     <g transform="translate(615 255)">
       <rect
@@ -107,14 +145,45 @@
         height="125"
         rx="4"
         fill="#0969DA"
-      />
-      <text x="52" y="43" fill="#0969DA" font-size="17" font-weight="700">02 · Build a usable fix</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.55s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="43"
+        fill="#0969DA"
+        font-size="17"
+        font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
+        letter-spacing=".6">02</text>
+      <text
+        x="90"
+        y="43"
+        fill="#0969DA"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Build a usable fix</text>
       <text
         x="52"
         y="78"
         fill="#24292F"
-        font-size="14"><tspan x="52" dy="0">Keep the scope small enough to understand,</tspan><tspan x="52" dy="24">but complete enough to be useful in practice.</tspan></text>
-      <text x="52" y="141" fill="#24292F" font-size="13">Utilities · developer tools · automation</text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="52" dy="0">Keep the scope small enough to understand,</tspan><tspan x="52" dy="24">but complete enough to be useful in practice.</tspan></text>
+      <text
+        x="52"
+        y="141"
+        fill="#24292F"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Utilities · developer tools · automation</text>
     </g>
     <g transform="translate(70 450)">
       <rect
@@ -131,15 +200,48 @@
         height="140"
         rx="4"
         fill="#1A7F37"
-      />
-      <text x="52" y="43" fill="#1A7F37" font-size="17" font-weight="700">03 · Learn from operation</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="8.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.10s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="43"
+        fill="#1A7F37"
+        font-size="17"
+        font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
+        letter-spacing=".6">03</text>
+      <text
+        x="90"
+        y="43"
+        fill="#1A7F37"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Learn from operation</text>
       <text
         x="52"
         y="80"
         fill="#24292F"
-        font-size="14"><tspan x="52" dy="0">Deploy what I build and learn what becomes difficult</tspan><tspan x="52" dy="24">once software leaves localhost.</tspan><tspan x="52" dy="31">Failures become feedback for the next design, deployment,</tspan><tspan x="52" dy="24">and operational decision.</tspan></text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="52" dy="0">Deploy what I build and learn what becomes difficult</tspan><tspan x="52" dy="24">once software leaves localhost.</tspan><tspan x="52" dy="31">Failures become feedback for the next design, deployment,</tspan><tspan x="52" dy="24">and operational decision.</tspan></text>
       <path d="M700 24V156" stroke="#D0D7E2" stroke-width="1.5"/>
-      <text x="735" y="38" fill="#6E7781" font-size="12" font-weight="700" letter-spacing="1.5">CURRENT DIRECTION</text>
+      <text
+        x="735"
+        y="38"
+        fill="#6E7781"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="1.5"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">CURRENT DIRECTION</text>
       <g transform="translate(735 52)">
         <rect
           width="265"
@@ -148,8 +250,26 @@
           fill="#FFFFFF"
           stroke="#1A7F37"
           stroke-width="1.5"
-        />
-        <text x="132.5" y="21" text-anchor="middle" fill="#1A7F37" font-size="13" font-weight="700">DEVOPS</text>
+        >
+          <animate
+            attributeName="stroke-opacity"
+            values=".42;1;.42"
+            dur="5.4s"
+            repeatCount="indefinite"
+            calcMode="spline"
+            keyTimes="0;0.5;1"
+            keySplines=".4 0 .2 1;.4 0 .2 1"
+            begin="0.0s"
+          />
+        </rect>
+        <text
+          x="132.5"
+          y="21"
+          text-anchor="middle"
+          fill="#1A7F37"
+          font-size="13"
+          font-weight="700"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">DEVOPS</text>
       </g>
       <g transform="translate(735 94)">
         <rect
@@ -159,8 +279,26 @@
           fill="#FFFFFF"
           stroke="#0969DA"
           stroke-width="1.5"
-        />
-        <text x="132.5" y="21" text-anchor="middle" fill="#0969DA" font-size="13" font-weight="700">SYSTEMS ENGINEERING</text>
+        >
+          <animate
+            attributeName="stroke-opacity"
+            values=".42;1;.42"
+            dur="5.4s"
+            repeatCount="indefinite"
+            calcMode="spline"
+            keyTimes="0;0.5;1"
+            keySplines=".4 0 .2 1;.4 0 .2 1"
+            begin="1.4s"
+          />
+        </rect>
+        <text
+          x="132.5"
+          y="21"
+          text-anchor="middle"
+          fill="#0969DA"
+          font-size="13"
+          font-weight="700"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">SYSTEMS ENGINEERING</text>
       </g>
       <g transform="translate(735 136)">
         <rect
@@ -170,8 +308,26 @@
           fill="#FFFFFF"
           stroke="#9A6700"
           stroke-width="1.5"
-        />
-        <text x="132.5" y="21" text-anchor="middle" fill="#9A6700" font-size="13" font-weight="700">RELIABILITY</text>
+        >
+          <animate
+            attributeName="stroke-opacity"
+            values=".42;1;.42"
+            dur="5.4s"
+            repeatCount="indefinite"
+            calcMode="spline"
+            keyTimes="0;0.5;1"
+            keySplines=".4 0 .2 1;.4 0 .2 1"
+            begin="2.8s"
+          />
+        </rect>
+        <text
+          x="132.5"
+          y="21"
+          text-anchor="middle"
+          fill="#9A6700"
+          font-size="13"
+          font-weight="700"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">RELIABILITY</text>
       </g>
     </g>
     <g transform="translate(70 650)">
@@ -182,12 +338,37 @@
         fill="#FFFFFF"
         stroke="#D0D7E2"
       />
-      <text x="22" y="22" fill="#0969DA" font-size="12" font-weight="700" letter-spacing="1.3">LONG-TERM GOAL</text>
+      <text
+        x="22"
+        y="22"
+        fill="#0969DA"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="1.3"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">LONG-TERM GOAL</text>
       <text
         x="22"
         y="42"
         fill="#24292F"
-        font-size="14">Connect development decisions with reliable system operation and real user needs.</text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Connect development decisions with reliable system operation and real user needs.</text>
+      <rect
+        x="0"
+        y="0"
+        width="130"
+        height="2"
+        rx="1"
+        fill="url(#accent)"
+        opacity=".58"
+      >
+        <animate
+          attributeName="x"
+          values="-130;1060"
+          dur="10s"
+          repeatCount="indefinite"
+          calcMode="linear"
+        />
+      </rect>
     </g>
   </g>
 </svg>

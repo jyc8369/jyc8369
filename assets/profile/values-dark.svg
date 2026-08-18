@@ -62,12 +62,19 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="142" fill="#F2F6FF" font-size="36" font-weight="700">Convenience and efficiency are the starting point.</text>
+    <text
+      x="70"
+      y="142"
+      fill="#F2F6FF"
+      font-size="36"
+      font-weight="700"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Convenience and efficiency are the starting point.</text>
     <text
       x="70"
       y="184"
       fill="#D8E1F0"
-      font-size="16"><tspan x="70" dy="0">Useful software should remove unnecessary work instead of moving complexity onto the user.</tspan><tspan x="70" dy="27">I prefer clear workflows, practical results, and improvements that can be felt immediately.</tspan></text>
+      font-size="16"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="70" dy="0">Useful software should remove unnecessary work instead of moving complexity onto the user.</tspan><tspan x="70" dy="27">I prefer clear workflows, practical results, and improvements that can be felt immediately.</tspan></text>
     <g transform="translate(70 270)">
       <rect
         width="510"
@@ -76,14 +83,55 @@
         fill="#101723"
         stroke="#26344D"
       />
-      <text x="28" y="40" fill="#C4B5FD" font-size="13" font-weight="700">01</text>
-      <text x="72" y="41" fill="#C4B5FD" font-size="18" font-weight="700">Convenience</text>
+      <text
+        x="28"
+        y="40"
+        fill="#C4B5FD"
+        font-size="13"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">01</text>
+      <text
+        x="72"
+        y="41"
+        fill="#C4B5FD"
+        font-size="18"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Convenience</text>
       <path d="M28 58H482" stroke="#26344D"/>
       <text
         x="28"
         y="88"
         fill="#D8E1F0"
-        font-size="14"><tspan x="28" dy="0">Reduce unnecessary effort so the user can focus</tspan><tspan x="28" dy="24">on the task they actually care about.</tspan></text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="28" dy="0">Reduce unnecessary effort so the user can focus</tspan><tspan x="28" dy="24">on the task they actually care about.</tspan></text>
+      <circle
+        cx="470"
+        cy="38"
+        r="4"
+        fill="#C4B5FD"
+        opacity=".55"
+      >
+        <animate
+          attributeName="r"
+          values="3;5;3"
+          dur="7.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.0s"
+        />
+        <animate
+          attributeName="opacity"
+          values=".35;1;.35"
+          dur="7.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.0s"
+        />
+      </circle>
     </g>
     <g transform="translate(620 270)">
       <rect
@@ -93,14 +141,55 @@
         fill="#101723"
         stroke="#26344D"
       />
-      <text x="28" y="40" fill="#67E8F9" font-size="13" font-weight="700">02</text>
-      <text x="72" y="41" fill="#67E8F9" font-size="18" font-weight="700">Efficiency</text>
+      <text
+        x="28"
+        y="40"
+        fill="#67E8F9"
+        font-size="13"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">02</text>
+      <text
+        x="72"
+        y="41"
+        fill="#67E8F9"
+        font-size="18"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Efficiency</text>
       <path d="M28 58H482" stroke="#26344D"/>
       <text
         x="28"
         y="88"
         fill="#D8E1F0"
-        font-size="14"><tspan x="28" dy="0">Prefer fewer steps, less repetition, and a faster</tspan><tspan x="28" dy="24">path to the same reliable result.</tspan></text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="28" dy="0">Prefer fewer steps, less repetition, and a faster</tspan><tspan x="28" dy="24">path to the same reliable result.</tspan></text>
+      <circle
+        cx="470"
+        cy="38"
+        r="4"
+        fill="#67E8F9"
+        opacity=".55"
+      >
+        <animate
+          attributeName="r"
+          values="3;5;3"
+          dur="7.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.9s"
+        />
+        <animate
+          attributeName="opacity"
+          values=".35;1;.35"
+          dur="7.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.9s"
+        />
+      </circle>
     </g>
     <g transform="translate(70 440)">
       <rect
@@ -110,14 +199,55 @@
         fill="#101723"
         stroke="#26344D"
       />
-      <text x="28" y="40" fill="#4ADE80" font-size="13" font-weight="700">03</text>
-      <text x="72" y="41" fill="#4ADE80" font-size="18" font-weight="700">Practicality</text>
+      <text
+        x="28"
+        y="40"
+        fill="#4ADE80"
+        font-size="13"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">03</text>
+      <text
+        x="72"
+        y="41"
+        fill="#4ADE80"
+        font-size="18"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Practicality</text>
       <path d="M28 58H482" stroke="#26344D"/>
       <text
         x="28"
         y="88"
         fill="#D8E1F0"
-        font-size="14"><tspan x="28" dy="0">A small project is valuable when it solves a clear</tspan><tspan x="28" dy="24">problem and fits into a real workflow.</tspan></text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="28" dy="0">A small project is valuable when it solves a clear</tspan><tspan x="28" dy="24">problem and fits into a real workflow.</tspan></text>
+      <circle
+        cx="470"
+        cy="38"
+        r="4"
+        fill="#4ADE80"
+        opacity=".55"
+      >
+        <animate
+          attributeName="r"
+          values="3;5;3"
+          dur="7.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.8s"
+        />
+        <animate
+          attributeName="opacity"
+          values=".35;1;.35"
+          dur="7.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.8s"
+        />
+      </circle>
     </g>
     <g transform="translate(620 440)">
       <rect
@@ -127,14 +257,55 @@
         fill="#101723"
         stroke="#26344D"
       />
-      <text x="28" y="40" fill="#F9A8D4" font-size="13" font-weight="700">04</text>
-      <text x="72" y="41" fill="#F9A8D4" font-size="18" font-weight="700">Iteration</text>
+      <text
+        x="28"
+        y="40"
+        fill="#F9A8D4"
+        font-size="13"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">04</text>
+      <text
+        x="72"
+        y="41"
+        fill="#F9A8D4"
+        font-size="18"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Iteration</text>
       <path d="M28 58H482" stroke="#26344D"/>
       <text
         x="28"
         y="88"
         fill="#D8E1F0"
-        font-size="14"><tspan x="28" dy="0">Ship a usable version, observe the next friction,</tspan><tspan x="28" dy="24">then improve the workflow step by step.</tspan></text>
+        font-size="14"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="28" dy="0">Ship a usable version, observe the next friction,</tspan><tspan x="28" dy="24">then improve the workflow step by step.</tspan></text>
+      <circle
+        cx="470"
+        cy="38"
+        r="4"
+        fill="#F9A8D4"
+        opacity=".55"
+      >
+        <animate
+          attributeName="r"
+          values="3;5;3"
+          dur="7.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="2.7s"
+        />
+        <animate
+          attributeName="opacity"
+          values=".35;1;.35"
+          dur="7.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="2.7s"
+        />
+      </circle>
     </g>
   </g>
 </svg>

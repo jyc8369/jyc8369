@@ -62,13 +62,26 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="142" fill="#1F2328" font-size="36" font-weight="700">Tools I use. Systems I want to understand.</text>
+    <text
+      x="70"
+      y="142"
+      fill="#1F2328"
+      font-size="36"
+      font-weight="700"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Tools I use. Systems I want to understand.</text>
     <text
       x="70"
       y="184"
       fill="#24292F"
-      font-size="16"><tspan x="70" dy="0">Programming languages are tools for building the things I need today.</tspan><tspan x="70" dy="27">DevOps and Systems Engineering are the direction I want to grow toward over time.</tspan></text>
-    <text x="70" y="272" fill="#6E7781" font-size="14" font-weight="700">LANGUAGES</text>
+      font-size="16"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="70" dy="0">Programming languages are tools for building the things I need today.</tspan><tspan x="70" dy="27">DevOps and Systems Engineering are the direction I want to grow toward over time.</tspan></text>
+    <text
+      x="70"
+      y="272"
+      fill="#6E7781"
+      font-size="14"
+      font-weight="700"
+      font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">LANGUAGES</text>
     <g transform="translate(70 295)">
       <rect
         width="500"
@@ -84,9 +97,31 @@
         height="42"
         rx="4"
         fill="#8250DF"
-      />
-      <text x="52" y="34" fill="#8250DF" font-size="17" font-weight="700">Python</text>
-      <text x="52" y="58" fill="#24292F" font-size="13">Automation · desktop utilities · API integrations</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="6.8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.00s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="34"
+        fill="#8250DF"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Python</text>
+      <text
+        x="52"
+        y="58"
+        fill="#24292F"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Automation · desktop utilities · API integrations</text>
     </g>
     <g transform="translate(70 390)">
       <rect
@@ -103,9 +138,31 @@
         height="42"
         rx="4"
         fill="#0969DA"
-      />
-      <text x="52" y="34" fill="#0969DA" font-size="17" font-weight="700">TypeScript</text>
-      <text x="52" y="58" fill="#24292F" font-size="13">VS Code extensions · developer tooling</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.55s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="34"
+        fill="#0969DA"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">TypeScript</text>
+      <text
+        x="52"
+        y="58"
+        fill="#24292F"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">VS Code extensions · developer tooling</text>
     </g>
     <g transform="translate(70 485)">
       <rect
@@ -122,9 +179,31 @@
         height="42"
         rx="4"
         fill="#1A7F37"
-      />
-      <text x="52" y="34" fill="#1A7F37" font-size="17" font-weight="700">JavaScript · Shell</text>
-      <text x="52" y="58" fill="#24292F" font-size="13">Web utilities · system and workflow automation</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="8.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.10s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="34"
+        fill="#1A7F37"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">JavaScript · Shell</text>
+      <text
+        x="52"
+        y="58"
+        fill="#24292F"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Web utilities · system and workflow automation</text>
     </g>
     <g transform="translate(70 580)">
       <rect
@@ -141,12 +220,45 @@
         height="42"
         rx="4"
         fill="#BF3989"
-      />
-      <text x="52" y="34" fill="#BF3989" font-size="17" font-weight="700">HTML / CSS</text>
-      <text x="52" y="58" fill="#24292F" font-size="13">Simple web interfaces · supporting UIs</text>
+      >
+        <animate
+          attributeName="opacity"
+          values=".68;1;.68"
+          dur="6.8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.65s"
+        />
+      </rect>
+      <text
+        x="52"
+        y="34"
+        fill="#BF3989"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">HTML / CSS</text>
+      <text
+        x="52"
+        y="58"
+        fill="#24292F"
+        font-size="13"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Simple web interfaces · supporting UIs</text>
     </g>
-    <text x="630" y="272" fill="#6E7781" font-size="14" font-weight="700">DIRECTION · DEVOPS / SYSTEMS ENGINEERING</text>
-    <text x="630" y="305" fill="#8A949F" font-size="13">Focus areas — not a hierarchy</text>
+    <text
+      x="630"
+      y="272"
+      fill="#6E7781"
+      font-size="14"
+      font-weight="700"
+      font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">DIRECTION · DEVOPS / SYSTEMS ENGINEERING</text>
+    <text
+      x="630"
+      y="305"
+      fill="#8A949F"
+      font-size="13"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Focus areas — not a hierarchy</text>
     <g transform="translate(630 335)">
       <rect
         width="225"
@@ -155,9 +267,26 @@
         fill="#FFFFFF"
         stroke="#8250DF"
         stroke-width="2"
-      />
+      >
+        <animate
+          attributeName="stroke-opacity"
+          values=".42;1;.42"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.00s"
+        />
+      </rect>
       <circle cx="28" cy="34" r="7" fill="#8250DF"/>
-      <text x="50" y="40" fill="#1F2328" font-size="16" font-weight="700">Linux</text>
+      <text
+        x="50"
+        y="40"
+        fill="#1F2328"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Linux</text>
     </g>
     <g transform="translate(885 335)">
       <rect
@@ -167,9 +296,26 @@
         fill="#FFFFFF"
         stroke="#0969DA"
         stroke-width="2"
-      />
+      >
+        <animate
+          attributeName="stroke-opacity"
+          values=".42;1;.42"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.75s"
+        />
+      </rect>
       <circle cx="28" cy="34" r="7" fill="#0969DA"/>
-      <text x="50" y="40" fill="#1F2328" font-size="16" font-weight="700">CI/CD</text>
+      <text
+        x="50"
+        y="40"
+        fill="#1F2328"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">CI/CD</text>
     </g>
     <g transform="translate(630 425)">
       <rect
@@ -179,9 +325,26 @@
         fill="#FFFFFF"
         stroke="#1A7F37"
         stroke-width="2"
-      />
+      >
+        <animate
+          attributeName="stroke-opacity"
+          values=".42;1;.42"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.50s"
+        />
+      </rect>
       <circle cx="28" cy="34" r="7" fill="#1A7F37"/>
-      <text x="50" y="40" fill="#1F2328" font-size="16" font-weight="700">Containers</text>
+      <text
+        x="50"
+        y="40"
+        fill="#1F2328"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Containers</text>
     </g>
     <g transform="translate(885 425)">
       <rect
@@ -191,9 +354,26 @@
         fill="#FFFFFF"
         stroke="#BF3989"
         stroke-width="2"
-      />
+      >
+        <animate
+          attributeName="stroke-opacity"
+          values=".42;1;.42"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="2.25s"
+        />
+      </rect>
       <circle cx="28" cy="34" r="7" fill="#BF3989"/>
-      <text x="50" y="40" fill="#1F2328" font-size="16" font-weight="700">Networking</text>
+      <text
+        x="50"
+        y="40"
+        fill="#1F2328"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Networking</text>
     </g>
     <g transform="translate(630 515)">
       <rect
@@ -203,9 +383,26 @@
         fill="#FFFFFF"
         stroke="#0969DA"
         stroke-width="2"
-      />
+      >
+        <animate
+          attributeName="stroke-opacity"
+          values=".42;1;.42"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="3.00s"
+        />
+      </rect>
       <circle cx="28" cy="34" r="7" fill="#0969DA"/>
-      <text x="50" y="40" fill="#1F2328" font-size="16" font-weight="700">Observability</text>
+      <text
+        x="50"
+        y="40"
+        fill="#1F2328"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Observability</text>
     </g>
     <g transform="translate(885 515)">
       <rect
@@ -215,9 +412,26 @@
         fill="#FFFFFF"
         stroke="#9A6700"
         stroke-width="2"
-      />
+      >
+        <animate
+          attributeName="stroke-opacity"
+          values=".42;1;.42"
+          dur="7.5s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="3.75s"
+        />
+      </rect>
       <circle cx="28" cy="34" r="7" fill="#9A6700"/>
-      <text x="50" y="40" fill="#1F2328" font-size="16" font-weight="700">Reliability</text>
+      <text
+        x="50"
+        y="40"
+        fill="#1F2328"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Reliability</text>
     </g>
     <g transform="translate(630 620)">
       <rect
@@ -227,12 +441,38 @@
         fill="#F6F8FA"
         stroke="#D0D7E2"
       />
-      <text x="24" y="32" fill="#1A7F37" font-size="13" font-weight="700">GOAL</text>
+      <text
+        x="24"
+        y="32"
+        fill="#1A7F37"
+        font-size="13"
+        font-weight="700"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">GOAL</text>
       <text
         x="24"
         y="60"
         fill="#24292F"
-        font-size="13"><tspan x="24" dy="0">Understand how software is built, deployed, operated, observed,</tspan><tspan x="24" dy="22">and recovered when something goes wrong.</tspan></text>
+        font-size="13"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="24" dy="0">Understand how software is built, deployed, operated, observed,</tspan><tspan x="24" dy="22">and recovered when something goes wrong.</tspan></text>
     </g>
   </g>
+  <rect
+    x="630"
+    y="318"
+    width="90"
+    height="2"
+    rx="1"
+    fill="url(#accent)"
+    opacity=".38"
+  >
+    <animate
+      attributeName="width"
+      values="90;480;90"
+      dur="9s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keyTimes="0;0.5;1"
+      keySplines=".4 0 .2 1;.4 0 .2 1"
+    />
+  </rect>
 </svg>

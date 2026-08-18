@@ -62,12 +62,19 @@
     fill="url(#accent)"
   />
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
-    <text x="70" y="142" fill="#F2F6FF" font-size="36" font-weight="700">Build. Deploy. Observe. Debug. Improve.</text>
+    <text
+      x="70"
+      y="142"
+      fill="#F2F6FF"
+      font-size="36"
+      font-weight="700"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Build. Deploy. Observe. Debug. Improve.</text>
     <text
       x="70"
       y="184"
       fill="#D8E1F0"
-      font-size="16"><tspan x="70" dy="0">I build and deploy small services to experience the software lifecycle beyond development.</tspan><tspan x="70" dy="27">When something fails, I use the incident as feedback for the next run.</tspan></text>
+      font-size="16"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="70" dy="0">I build and deploy small services to experience the software lifecycle beyond development.</tspan><tspan x="70" dy="27">When something fails, I use the incident as feedback for the next run.</tspan></text>
     <path
       id="flow"
       d="M110 330H1090"
@@ -82,29 +89,194 @@
       </animateMotion>
     </circle>
     <g transform="translate(110 330)">
-      <circle r="34" fill="#0B1320" stroke="#C4B5FD" stroke-width="2.5"/>
-      <text y="6" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700">01</text>
-      <text y="75" text-anchor="middle" fill="#F2F6FF" font-size="17" font-weight="700">BUILD</text>
+      <circle r="34" fill="#0B1320" stroke="#C4B5FD" stroke-width="2.5">
+        <animate
+          attributeName="stroke-opacity"
+          values=".48;1;.48"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.00s"
+        />
+        <animate
+          attributeName="stroke-width"
+          values="2.2;3.4;2.2"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="0.00s"
+        />
+      </circle>
+      <text
+        y="6"
+        text-anchor="middle"
+        fill="#C4B5FD"
+        font-size="14"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">01</text>
+      <text
+        y="75"
+        text-anchor="middle"
+        fill="#F2F6FF"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">BUILD</text>
     </g>
     <g transform="translate(355 330)">
-      <circle r="34" fill="#0B1320" stroke="#67E8F9" stroke-width="2.5"/>
-      <text y="6" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="700">02</text>
-      <text y="75" text-anchor="middle" fill="#F2F6FF" font-size="17" font-weight="700">DEPLOY</text>
+      <circle r="34" fill="#0B1320" stroke="#67E8F9" stroke-width="2.5">
+        <animate
+          attributeName="stroke-opacity"
+          values=".48;1;.48"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.35s"
+        />
+        <animate
+          attributeName="stroke-width"
+          values="2.2;3.4;2.2"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="1.35s"
+        />
+      </circle>
+      <text
+        y="6"
+        text-anchor="middle"
+        fill="#67E8F9"
+        font-size="14"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">02</text>
+      <text
+        y="75"
+        text-anchor="middle"
+        fill="#F2F6FF"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">DEPLOY</text>
     </g>
     <g transform="translate(600 330)">
-      <circle r="34" fill="#0B1320" stroke="#4ADE80" stroke-width="2.5"/>
-      <text y="6" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700">03</text>
-      <text y="75" text-anchor="middle" fill="#F2F6FF" font-size="17" font-weight="700">OBSERVE</text>
+      <circle r="34" fill="#0B1320" stroke="#4ADE80" stroke-width="2.5">
+        <animate
+          attributeName="stroke-opacity"
+          values=".48;1;.48"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="2.70s"
+        />
+        <animate
+          attributeName="stroke-width"
+          values="2.2;3.4;2.2"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="2.70s"
+        />
+      </circle>
+      <text
+        y="6"
+        text-anchor="middle"
+        fill="#4ADE80"
+        font-size="14"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">03</text>
+      <text
+        y="75"
+        text-anchor="middle"
+        fill="#F2F6FF"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">OBSERVE</text>
     </g>
     <g transform="translate(845 330)">
-      <circle r="34" fill="#0B1320" stroke="#F9A8D4" stroke-width="2.5"/>
-      <text y="6" text-anchor="middle" fill="#F9A8D4" font-size="14" font-weight="700">04</text>
-      <text y="75" text-anchor="middle" fill="#F2F6FF" font-size="17" font-weight="700">DEBUG</text>
+      <circle r="34" fill="#0B1320" stroke="#F9A8D4" stroke-width="2.5">
+        <animate
+          attributeName="stroke-opacity"
+          values=".48;1;.48"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="4.05s"
+        />
+        <animate
+          attributeName="stroke-width"
+          values="2.2;3.4;2.2"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="4.05s"
+        />
+      </circle>
+      <text
+        y="6"
+        text-anchor="middle"
+        fill="#F9A8D4"
+        font-size="14"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">04</text>
+      <text
+        y="75"
+        text-anchor="middle"
+        fill="#F2F6FF"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">DEBUG</text>
     </g>
     <g transform="translate(1090 330)">
-      <circle r="34" fill="#0B1320" stroke="#FBBF24" stroke-width="2.5"/>
-      <text y="6" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700">05</text>
-      <text y="75" text-anchor="middle" fill="#F2F6FF" font-size="17" font-weight="700">IMPROVE</text>
+      <circle r="34" fill="#0B1320" stroke="#FBBF24" stroke-width="2.5">
+        <animate
+          attributeName="stroke-opacity"
+          values=".48;1;.48"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="5.40s"
+        />
+        <animate
+          attributeName="stroke-width"
+          values="2.2;3.4;2.2"
+          dur="8s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keyTimes="0;0.5;1"
+          keySplines=".4 0 .2 1;.4 0 .2 1"
+          begin="5.40s"
+        />
+      </circle>
+      <text
+        y="6"
+        text-anchor="middle"
+        fill="#FBBF24"
+        font-size="14"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">05</text>
+      <text
+        y="75"
+        text-anchor="middle"
+        fill="#F2F6FF"
+        font-size="17"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">IMPROVE</text>
     </g>
     <g transform="translate(70 465)">
       <rect
@@ -114,12 +286,19 @@
         fill="#101723"
         stroke="#26344D"
       />
-      <text x="28" y="43" fill="#C4B5FD" font-size="16" font-weight="700">Deployment reality</text>
+      <text
+        x="28"
+        y="43"
+        fill="#C4B5FD"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Deployment reality</text>
       <text
         x="28"
         y="78"
         fill="#D8E1F0"
-        font-size="13"><tspan x="28" dy="0">What changes outside localhost,</tspan><tspan x="28" dy="24">and what environments developers need.</tspan></text>
+        font-size="13"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="28" dy="0">What changes outside localhost,</tspan><tspan x="28" dy="24">and what environments developers need.</tspan></text>
     </g>
     <g transform="translate(435 465)">
       <rect
@@ -129,12 +308,19 @@
         fill="#101723"
         stroke="#26344D"
       />
-      <text x="28" y="43" fill="#4ADE80" font-size="16" font-weight="700">Useful signals</text>
+      <text
+        x="28"
+        y="43"
+        fill="#4ADE80"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Useful signals</text>
       <text
         x="28"
         y="78"
         fill="#D8E1F0"
-        font-size="13"><tspan x="28" dy="0">Which logs, metrics, and state</tspan><tspan x="28" dy="24">actually help during incidents.</tspan></text>
+        font-size="13"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="28" dy="0">Which logs, metrics, and state</tspan><tspan x="28" dy="24">actually help during incidents.</tspan></text>
     </g>
     <g transform="translate(800 465)">
       <rect
@@ -144,13 +330,25 @@
         fill="#101723"
         stroke="#26344D"
       />
-      <text x="28" y="43" fill="#FBBF24" font-size="16" font-weight="700">Operational leverage</text>
+      <text
+        x="28"
+        y="43"
+        fill="#FBBF24"
+        font-size="16"
+        font-weight="700"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Operational leverage</text>
       <text
         x="28"
         y="78"
         fill="#D8E1F0"
-        font-size="13"><tspan x="28" dy="0">Where automation and prevention</tspan><tspan x="28" dy="24">remove repetitive operational work.</tspan></text>
+        font-size="13"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif"><tspan x="28" dy="0">Where automation and prevention</tspan><tspan x="28" dy="24">remove repetitive operational work.</tspan></text>
     </g>
-    <text x="70" y="665" fill="#8290A8" font-size="14">CI/CD · Linux · Containers · Networking · Observability · Reliability</text>
+    <text
+      x="70"
+      y="665"
+      fill="#8290A8"
+      font-size="14"
+      font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">CI/CD · Linux · Containers · Networking · Observability · Reliability</text>
   </g>
 </svg>
