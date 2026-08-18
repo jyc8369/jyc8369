@@ -6,6 +6,7 @@ on:
       - assets/profile/*.svg
       - scripts/generate_profile_icosahedron.py
       - scripts/generate_profile_panels.py
+      - scripts/generate_about_panel.py
       - scripts/format_profile_svgs.py
       - .github/workflows/generate-profile-icosahedron.yml
   workflow_dispatch:
@@ -34,6 +35,9 @@ jobs:
 
       - name: Generate profile information panels
         run: python3 scripts/generate_profile_panels.py
+
+      - name: Generate refined about panel
+        run: python3 scripts/generate_about_panel.py
 
       - name: Format SVG source
         run: python3 scripts/format_profile_svgs.py
