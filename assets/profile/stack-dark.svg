@@ -121,7 +121,7 @@
         y="58"
         fill="#D8E1F0"
         font-size="13"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Automation · desktop utilities · API integrations</text>
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Automation · desktop utilities · API integrations</text>
     </g>
     <g transform="translate(70 390)">
       <rect
@@ -162,7 +162,7 @@
         y="58"
         fill="#D8E1F0"
         font-size="13"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">VS Code extensions · developer tooling</text>
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">VS Code extensions · developer tooling</text>
     </g>
     <g transform="translate(70 485)">
       <rect
@@ -203,7 +203,7 @@
         y="58"
         fill="#D8E1F0"
         font-size="13"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Web utilities · system and workflow automation</text>
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Web utilities · system and workflow automation</text>
     </g>
     <g transform="translate(70 580)">
       <rect
@@ -244,7 +244,7 @@
         y="58"
         fill="#D8E1F0"
         font-size="13"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Simple web interfaces · supporting UIs</text>
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif">Simple web interfaces · supporting UIs</text>
     </g>
     <text
       x="630"
