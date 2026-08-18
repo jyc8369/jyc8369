@@ -12,6 +12,6 @@
 I care about **convenience, efficiency, and operating what I build**.  
 Long-term direction: **DevOps · Systems Engineering**
 
-### [Read the detailed profile →](./docs/PROFILE.md)
+### [Read the detailed profile →](./ABOUT.md)
 
 </div>

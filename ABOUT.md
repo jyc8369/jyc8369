@@ -1,19 +1,52 @@
-# About
+# Profile Details
 
-I build practical software that turns repetitive or awkward workflows into small, focused tools.
+[← Back to the main profile](./README.md)
 
-## What I build
+## About Me
 
-- Desktop utilities for file conversion and local workflows
-- AI-assisted automation connected to concrete tasks
-- Developer tools for VS Code, Codex, and related environments
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/about-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile/about-light.svg">
+  <img alt="About me" src="./assets/profile/about-dark.svg" width="100%">
+</picture>
 
-## How I work
+## What I Value
 
-I keep the scope small, build a usable version, improve it through iteration, and document installation, usage, and limitations in the repository.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/values-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile/values-light.svg">
+  <img alt="What I value" src="./assets/profile/values-dark.svg" width="100%">
+</picture>
 
-## Selected work
+## Learning Through Small Services
 
-My public repositories include a Minecraft mod translation tool, a cross-platform icon converter, a VS Code extension for managing multiple Codex accounts, and a cost-aware agent routing plugin.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/lifecycle-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile/lifecycle-light.svg">
+  <img alt="Learning through small services" src="./assets/profile/lifecycle-dark.svg" width="100%">
+</picture>
 
-This document is the content source for the About page in my project showcase.
+## Featured Projects
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/projects-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile/projects-light.svg">
+  <img alt="Featured projects" src="./assets/profile/projects-dark.svg" width="100%">
+</picture>
+
+### Project Links
+
+- [Minecraft Mod Translator Gemini](https://github.com/jyc8369/Minecraft_Mod_Translator_Gemini)
+- [Codex Multi Login](https://github.com/jyc8369/Codex_Multi_Login)
+- [Icon Bundler](https://github.com/jyc8369/Icon_Bundler)
+- [Cost Aware Agent Router](https://github.com/jyc8369/Cost_Aware_Agent_Router)
+
+## Languages & Direction
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stack-light.svg">
+  <img alt="Programming languages and current direction" src="./assets/profile/stack-dark.svg" width="100%">
+</picture>
+
+[All repositories](https://github.com/jyc8369?tab=repositories)
