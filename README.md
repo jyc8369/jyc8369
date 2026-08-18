@@ -10,60 +10,37 @@
 
 **Hobbyist developer learning to build, deploy, and operate practical software.**
 
-I care about **convenience and efficiency**. I like finding friction in everyday technical workflows, understanding why it is inconvenient, and building small tools or services that make the process simpler.
+I look for friction in everyday technical workflows and think about how software can make them more **convenient and efficient**.
 
-My long-term goal is to work in **DevOps and Systems Engineering**.
+My long-term direction is **DevOps and Systems Engineering**.
 
 [View all repositories](https://github.com/jyc8369?tab=repositories)
 
 </div>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./values-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./values-light.svg">
+  <img alt="How I build" src="./values-dark.svg" width="100%">
+</picture>
 
 ## About Me
 
-I develop software as a hobby and use each project as a way to understand real problems from the user's point of view.
+I develop software as a hobby and use each project to understand real problems from the user's point of view. When something feels repetitive, inconvenient, or unnecessarily complicated, I try to identify the source of the friction and build a focused solution around it.
 
-When I find something repetitive, inconvenient, or unnecessarily complicated, I try to understand where the friction comes from and how software could remove it. I prefer focused tools that solve a concrete problem over adding complexity for its own sake.
+Because I want to grow toward **DevOps and Systems Engineering**, I also want to understand what software engineers actually need from the systems and hardware that support their work. I am interested in both sides of the boundary: writing software and operating the environment that keeps it running.
 
-Because I want to grow toward **DevOps and Systems Engineering**, I am also interested in what people actually need from the systems and hardware they depend on. I want to understand both sides: the people who build software and the people who rely on the infrastructure that runs it.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./lifecycle-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./lifecycle-light.svg">
+  <img alt="Learning through shipping and operating services" src="./lifecycle-dark.svg" width="100%">
+</picture>
 
 ## Learning Through Small Services
 
-I build and deploy small services to experience more of the software lifecycle than development alone.
+I build and deploy small services so I can experience more of the software lifecycle than development alone. When a deployed service fails, I try to investigate the problem from the software engineer's point of view, resolve it, and then ask what could make the same failure easier to prevent, detect, diagnose, or recover from next time.
 
-By operating what I build, I can learn what software engineers actually want from deployment environments and what becomes difficult after a service leaves the development machine.
-
-When something fails in a deployed service, I try to investigate and resolve the problem from the software engineer's point of view. Afterward, I think about what could make the same situation easier to prevent, detect, diagnose, or recover from.
-
-This helps me learn why areas such as **automation, observability, deployment workflows, infrastructure, and reliability** matter in practice rather than only in theory.
-
-## What I Value
-
-### Convenience
-
-A tool should reduce unnecessary effort. I want users to spend their time on the task they actually care about instead of learning complicated steps that the software could handle for them.
-
-### Efficiency
-
-I prefer to automate repetitive work and reduce workflows that require unnecessary steps. If the same result can be achieved with less time and effort, I want to understand how to make that possible.
-
-### Practicality
-
-A small project can still be valuable if it solves a clear problem and is usable in a real workflow. I care more about whether something is useful than how many features it has.
-
-### Iteration
-
-I prefer building a usable version, trying it in practice, finding the next inconvenience, and improving it step by step.
-
-## What I Build
-
-- Developer tools
-- Desktop utilities
-- Workflow automation
-- VS Code extensions
-- AI-assisted tools
-- Small services for learning deployment and operations
+That process is how I am learning why **automation, observability, deployment workflows, infrastructure, and reliability** matter in practice.
 
 ## Featured Projects
 
@@ -74,19 +51,14 @@ I prefer building a usable version, trying it in practice, finding the next inco
 | [Codex Multi Login](https://github.com/jyc8369/Codex_Multi_Login) | A VS Code extension for managing multiple Codex accounts and switching between them more easily. | `TypeScript` `VS Code` |
 | [Cost Aware Agent Router](https://github.com/jyc8369/Cost_Aware_Agent_Router) | A Codex plugin that delegates reasoning-heavy work to stronger available agents while keeping deterministic execution local. | `Codex Plugin` `Agent Routing` |
 
-## Programming Languages
-
-- **Python** — automation, desktop utilities, and API integrations
-- **TypeScript** — VS Code extensions and developer tooling
-- **JavaScript** — web and utility development
-- **Shell** — development and system automation
-
-**Web:** `HTML` · `CSS`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./stack-light.svg">
+  <img alt="Programming languages and current direction" src="./stack-dark.svg" width="100%">
+</picture>
 
 ## Current Direction
 
 My goal is to become an engineer who understands not only how software is written, but also how it is **built, deployed, operated, observed, and recovered when something goes wrong**.
 
-I am currently interested in learning more about:
-
-`DevOps` · `Systems Engineering` · `Linux` · `Automation` · `Infrastructure` · `CI/CD` · `Containers` · `Networking` · `Observability` · `Reliability`
+I am currently exploring `Linux`, `CI/CD`, `Containers`, `Networking`, `Observability`, `Infrastructure`, `Automation`, and `Reliability` while continuing to build small tools and services.
