@@ -53,8 +53,7 @@
     text-anchor="middle"
     fill="#6E7781"
     font-size="14"
-    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
-  >jyc8369@github: ~/profile $ cat about.txt</text>
+    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ cat about.txt</text>
   <rect
     x="20"
     y="71"
@@ -69,8 +68,7 @@
       x="70"
       y="210"
       fill="#24292F"
-      font-size="16"
-    ><tspan x="70" dy="0">I look for repetitive, inconvenient, or unnecessarily complicated workflows,</tspan><tspan x="70" dy="27">then try to turn that friction into a focused tool or a small service I can actually use.</tspan></text>
+      font-size="16"><tspan x="70" dy="0">I look for repetitive, inconvenient, or unnecessarily complicated workflows,</tspan><tspan x="70" dy="27">then try to turn that friction into a focused tool or a small service I can actually use.</tspan></text>
     <g transform="translate(70 292)">
       <rect
         width="330"
@@ -92,8 +90,7 @@
         x="52"
         y="72"
         fill="#24292F"
-        font-size="14"
-      ><tspan x="52" dy="0">Start from a concrete inconvenience,</tspan><tspan x="52" dy="23">not from a feature list.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">Repetition · confusing steps · wasted time</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Start from a concrete inconvenience,</tspan><tspan x="52" dy="23">not from a feature list.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">Repetition · confusing steps · wasted time</tspan></text>
     </g>
     <g transform="translate(435 292)">
       <rect
@@ -116,8 +113,7 @@
         x="52"
         y="72"
         fill="#24292F"
-        font-size="14"
-      ><tspan x="52" dy="0">Keep the scope small enough to understand,</tspan><tspan x="52" dy="23">but complete enough to be useful.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">Utilities · developer tools · automation</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Keep the scope small enough to understand,</tspan><tspan x="52" dy="23">but complete enough to be useful.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">Utilities · developer tools · automation</tspan></text>
     </g>
     <g transform="translate(800 292)">
       <rect
@@ -140,14 +136,12 @@
         x="52"
         y="72"
         fill="#24292F"
-        font-size="14"
-      ><tspan x="52" dy="0">Deploy what I build and learn what becomes</tspan><tspan x="52" dy="23">difficult once software leaves localhost.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">DevOps · Systems Engineering · reliability</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Deploy what I build and learn what becomes</tspan><tspan x="52" dy="23">difficult once software leaves localhost.</tspan><tspan x="52" dy="23"/><tspan x="52" dy="23">DevOps · Systems Engineering · reliability</tspan></text>
     </g>
     <text
       x="70"
       y="540"
       fill="#6E7781"
-      font-size="14"
-    ><tspan x="70" dy="0">Long-term goal: understand software, infrastructure, and the needs of the people using both.</tspan><tspan x="70" dy="24">I want to become an engineer who can connect development decisions with reliable system operation.</tspan></text>
+      font-size="14"><tspan x="70" dy="0">Long-term goal: understand software, infrastructure, and the needs of the people using both.</tspan><tspan x="70" dy="24">I want to become an engineer who can connect development decisions with reliable system operation.</tspan></text>
   </g>
 </svg>

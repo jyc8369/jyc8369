@@ -53,8 +53,7 @@
     text-anchor="middle"
     fill="#8290A8"
     font-size="14"
-    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
-  >jyc8369@github: ~/profile $ cat stack.txt</text>
+    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ cat stack.txt</text>
   <rect
     x="20"
     y="71"
@@ -69,8 +68,7 @@
       x="70"
       y="210"
       fill="#D8E1F0"
-      font-size="16"
-    ><tspan x="70" dy="0">Programming languages are tools for building the things I need today.</tspan><tspan x="70" dy="27">DevOps and Systems Engineering are the direction I want to grow toward over time.</tspan></text>
+      font-size="16"><tspan x="70" dy="0">Programming languages are tools for building the things I need today.</tspan><tspan x="70" dy="27">DevOps and Systems Engineering are the direction I want to grow toward over time.</tspan></text>
     <text x="70" y="290" fill="#8290A8" font-size="13">PROGRAMMING LANGUAGES</text>
     <g transform="translate(70 315)">
       <rect
@@ -93,8 +91,7 @@
         x="52"
         y="72"
         fill="#D8E1F0"
-        font-size="14"
-      ><tspan x="52" dy="0">Automation · desktop utilities</tspan><tspan x="52" dy="23">API integrations</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Automation · desktop utilities</tspan><tspan x="52" dy="23">API integrations</tspan></text>
     </g>
     <g transform="translate(70 420)">
       <rect
@@ -117,8 +114,7 @@
         x="52"
         y="72"
         fill="#D8E1F0"
-        font-size="14"
-      ><tspan x="52" dy="0">VS Code extensions</tspan><tspan x="52" dy="23">Developer tooling</tspan></text>
+        font-size="14"><tspan x="52" dy="0">VS Code extensions</tspan><tspan x="52" dy="23">Developer tooling</tspan></text>
     </g>
     <g transform="translate(70 525)">
       <rect
@@ -141,8 +137,7 @@
         x="52"
         y="72"
         fill="#D8E1F0"
-        font-size="14"
-      ><tspan x="52" dy="0">Web utilities</tspan><tspan x="52" dy="23">System and workflow automation</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Web utilities</tspan><tspan x="52" dy="23">System and workflow automation</tspan></text>
     </g>
     <g transform="translate(70 630)">
       <rect
@@ -165,8 +160,7 @@
         x="52"
         y="72"
         fill="#D8E1F0"
-        font-size="14"
-      ><tspan x="52" dy="0">Simple web interfaces</tspan><tspan x="52" dy="23">Small supporting UIs</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Simple web interfaces</tspan><tspan x="52" dy="23">Small supporting UIs</tspan></text>
     </g>
     <text x="630" y="290" fill="#8290A8" font-size="13">DEVOPS / SYSTEMS ENGINEERING</text>
     <g fill="none" stroke="#26344D" stroke-width="2.2">
@@ -255,7 +249,6 @@
       x="630"
       y="735"
       fill="#8290A8"
-      font-size="13"
-    ><tspan x="630" dy="0">Goal: understand how software is built, deployed, operated, observed,</tspan><tspan x="630" dy="22">and recovered when something goes wrong.</tspan></text>
+      font-size="13"><tspan x="630" dy="0">Goal: understand how software is built, deployed, operated, observed,</tspan><tspan x="630" dy="22">and recovered when something goes wrong.</tspan></text>
   </g>
 </svg>

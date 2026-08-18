@@ -53,8 +53,7 @@
     text-anchor="middle"
     fill="#6E7781"
     font-size="14"
-    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
-  >jyc8369@github: ~/profile $ ./operate</text>
+    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ ./operate</text>
   <rect
     x="20"
     y="71"
@@ -69,8 +68,7 @@
       x="70"
       y="210"
       fill="#24292F"
-      font-size="16"
-    ><tspan x="70" dy="0">I build and deploy small services so I can experience the software lifecycle beyond development.</tspan><tspan x="70" dy="27">When something fails, I investigate it from the software engineer’s point of view and improve the next run.</tspan></text>
+      font-size="16"><tspan x="70" dy="0">I build and deploy small services so I can experience the software lifecycle beyond development.</tspan><tspan x="70" dy="27">When something fails, I investigate it from the software engineer’s point of view and improve the next run.</tspan></text>
     <path
       id="flow"
       d="M110 350 H1090"
@@ -118,8 +116,7 @@
       x="70"
       y="520"
       fill="#24292F"
-      font-size="14"
-    ><tspan x="70" dy="0">What I learn from this loop:</tspan><tspan x="70" dy="25">• what deployment environments make development easier</tspan><tspan x="70" dy="25">• what logs and observability data are actually useful during incidents</tspan><tspan x="70" dy="25">• where automation can reduce repetitive operational work</tspan><tspan x="70" dy="25">• how reliability is designed through prevention, detection, diagnosis, and recovery</tspan></text>
+      font-size="14"><tspan x="70" dy="0">What I learn from this loop:</tspan><tspan x="70" dy="25">• what deployment environments make development easier</tspan><tspan x="70" dy="25">• what logs and observability data are actually useful during incidents</tspan><tspan x="70" dy="25">• where automation can reduce repetitive operational work</tspan><tspan x="70" dy="25">• how reliability is designed through prevention, detection, diagnosis, and recovery</tspan></text>
     <text x="70" y="660" fill="#6E7781" font-size="13">CI/CD · Linux · Containers · Networking · Observability · Reliability</text>
   </g>
 </svg>

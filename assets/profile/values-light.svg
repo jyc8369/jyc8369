@@ -53,8 +53,7 @@
     text-anchor="middle"
     fill="#6E7781"
     font-size="14"
-    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
-  >jyc8369@github: ~/profile $ cat values.txt</text>
+    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ cat values.txt</text>
   <rect
     x="20"
     y="71"
@@ -69,8 +68,7 @@
       x="70"
       y="210"
       fill="#24292F"
-      font-size="16"
-    ><tspan x="70" dy="0">Useful software should remove unnecessary work instead of moving complexity onto the user.</tspan><tspan x="70" dy="27">I prefer clear workflows, practical results, and improvements that can be felt immediately.</tspan></text>
+      font-size="16"><tspan x="70" dy="0">Useful software should remove unnecessary work instead of moving complexity onto the user.</tspan><tspan x="70" dy="27">I prefer clear workflows, practical results, and improvements that can be felt immediately.</tspan></text>
     <g transform="translate(70 292)">
       <rect
         width="510"
@@ -92,8 +90,7 @@
         x="52"
         y="72"
         fill="#24292F"
-        font-size="14"
-      ><tspan x="52" dy="0">Reduce unnecessary effort so the user can focus</tspan><tspan x="52" dy="23">on the task they actually care about.</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Reduce unnecessary effort so the user can focus</tspan><tspan x="52" dy="23">on the task they actually care about.</tspan></text>
     </g>
     <g transform="translate(620 292)">
       <rect
@@ -116,8 +113,7 @@
         x="52"
         y="72"
         fill="#24292F"
-        font-size="14"
-      ><tspan x="52" dy="0">Prefer fewer steps, less repetition, and a faster</tspan><tspan x="52" dy="23">path to the same reliable result.</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Prefer fewer steps, less repetition, and a faster</tspan><tspan x="52" dy="23">path to the same reliable result.</tspan></text>
     </g>
     <g transform="translate(70 452)">
       <rect
@@ -140,8 +136,7 @@
         x="52"
         y="72"
         fill="#24292F"
-        font-size="14"
-      ><tspan x="52" dy="0">A small project is valuable when it solves a clear</tspan><tspan x="52" dy="23">problem and fits into a real workflow.</tspan></text>
+        font-size="14"><tspan x="52" dy="0">A small project is valuable when it solves a clear</tspan><tspan x="52" dy="23">problem and fits into a real workflow.</tspan></text>
     </g>
     <g transform="translate(620 452)">
       <rect
@@ -164,8 +159,7 @@
         x="52"
         y="72"
         fill="#24292F"
-        font-size="14"
-      ><tspan x="52" dy="0">Ship a usable version, observe the next source of</tspan><tspan x="52" dy="23">friction, and improve it step by step.</tspan></text>
+        font-size="14"><tspan x="52" dy="0">Ship a usable version, observe the next source of</tspan><tspan x="52" dy="23">friction, and improve it step by step.</tspan></text>
     </g>
   </g>
 </svg>

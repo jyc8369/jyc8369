@@ -6,8 +6,7 @@
   role="img"
   aria-label="jyc8369 mathematically regular 3D icosahedron profile banner"
 >
-  <desc
-  >Regular icosahedron generated from the standard golden-ratio coordinates, 30 equal 3D edges, rotation matrices, and perspective projection.</desc>
+  <desc>Regular icosahedron generated from the standard golden-ratio coordinates, 30 equal 3D edges, rotation matrices, and perspective projection.</desc>
   <defs>
     <linearGradient
       id="background"
@@ -171,8 +170,7 @@
       text-anchor="middle"
       fill="#8190A8"
       font-size="12"
-      font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
-    >jyc8369@github: ~/profile $ ./render --true-3d-icosahedron</text>
+      font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">jyc8369@github: ~/profile $ ./render --true-3d-icosahedron</text>
     <rect
       x="18"
       y="59"
