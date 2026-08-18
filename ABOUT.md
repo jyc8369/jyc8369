@@ -34,12 +34,13 @@
   <img alt="Featured projects" src="./assets/profile/projects-dark.svg" width="100%">
 </picture>
 
-### Project Links
-
-- [Minecraft Mod Translator Gemini](https://github.com/jyc8369/Minecraft_Mod_Translator_Gemini)
-- [Codex Multi Login](https://github.com/jyc8369/Codex_Multi_Login)
-- [Icon Bundler](https://github.com/jyc8369/Icon_Bundler)
-- [Cost Aware Agent Router](https://github.com/jyc8369/Cost_Aware_Agent_Router)
+<p align="center">
+  <strong>View source:</strong><br>
+  <a href="https://github.com/jyc8369/Minecraft_Mod_Translator_Gemini">Minecraft Mod Translator Gemini</a>
+  · <a href="https://github.com/jyc8369/Codex_Multi_Login">Codex Multi Login</a>
+  · <a href="https://github.com/jyc8369/Icon_Bundler">Icon Bundler</a>
+  · <a href="https://github.com/jyc8369/Cost_Aware_Agent_Router">Cost Aware Agent Router</a>
+</p>
 
 ## Languages & Direction
 

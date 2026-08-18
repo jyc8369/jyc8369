@@ -5,6 +5,7 @@ on:
     paths:
       - assets/profile/*.svg
       - scripts/generate_profile_icosahedron.py
+      - scripts/generate_profile_panels.py
       - scripts/format_profile_svgs.py
       - .github/workflows/generate-profile-icosahedron.yml
   workflow_dispatch:
@@ -30,6 +31,9 @@ jobs:
           mkdir -p assets/profile
           mv dark.svg assets/profile/banner-dark.svg
           mv light.svg assets/profile/banner-light.svg
+
+      - name: Generate profile information panels
+        run: python3 scripts/generate_profile_panels.py
 
       - name: Format SVG source
         run: python3 scripts/format_profile_svgs.py
@@ -68,5 +72,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/profile/*.svg
-          git commit -m "chore: format profile SVG source"
+          git commit -m "chore: regenerate profile SVGs"
           git push
