@@ -227,7 +227,11 @@
       />
       <text x="102" y="558" fill="#8A949F" font-size="12" letter-spacing="2.2">HOW I LIKE TO WORK</text>
       <text x="102" y="598" fill="#32383F" font-size="17">Notice friction. Build a usable fix.</text>
-      <text x="102" y="630" fill="#66707B" font-size="15">Deploy it, observe what breaks, and improve the next step.</text>
+      <text
+        x="102"
+        y="626"
+        fill="#66707B"
+        font-size="15"><tspan x="102" dy="0">Deploy it, observe what breaks,</tspan><tspan x="102" dy="23">and improve the next step.</tspan></text>
       <text x="78" y="730" fill="#66707B" font-size="15">&gt; build · deploy · observe · improve</text>
       <rect
         x="399"
